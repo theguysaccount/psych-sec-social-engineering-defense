@@ -229,7 +229,7 @@ class Site:
 <section>
 <h2>Latest scam alerts</h2>
 <ul class="alerts">{''.join(self.alert_li(a, root) for a in latest)}</ul>
-<p><a href="{root}alerts/">More alerts from the FTC and CISA →</a></p>
+<p><a href="{root}alerts/">More alerts from the FTC, CISA and FBI →</a></p>
 </section>
 
 <section class="share-box">
@@ -271,7 +271,7 @@ class Site:
 <ol>{''.join(f'<li>{e(f["text"])}</li>' for f in example["flags"])}</ol>
 <p class="note">A training example written for this site. Names, numbers and links are made up, and links are disabled.</p>"""
         alerts_html = (f'<ul class="alerts">{"".join(self.alert_li(a, root) for a in alerts)}</ul>' if alerts else
-                       "<p>No recent FTC or CISA alerts are tagged with this scam. The guidance below still applies.</p>")
+                       "<p>No recent FTC, CISA or FBI alerts are tagged with this scam. The guidance below still applies.</p>")
         body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="{root}">Home</a> › <a href="{root}scams/">Scams</a> › {e(t["name"])}</nav>
 <h1>{e(t["title"])}</h1>
@@ -398,14 +398,14 @@ class Site:
         checked = self.store.get("checked")
         body = f"""
 <nav class="crumbs" aria-label="Breadcrumb"><a href="{root}">Home</a> › Alerts</nav>
-<h1>Latest scam alerts from the FTC and CISA</h1>
+<h1>Latest scam alerts from the FTC, CISA and FBI</h1>
 <p class="lede">The newest public warnings about scams, each linked to the original and to our lesson on that scam.</p>
-<p class="note">Checked {self.fmt_date(checked) if checked else "weekly"}. This page updates itself every week from the <a href="https://consumer.ftc.gov/consumer-alerts" rel="noopener">FTC's consumer alerts</a> and <a href="https://www.cisa.gov/news-events/cybersecurity-advisories" rel="noopener">CISA's alerts</a>; only alerts about scams are listed.</p>
+<p class="note">Checked {self.fmt_date(checked) if checked else "weekly"}. This page updates itself every week from the <a href="https://consumer.ftc.gov/consumer-alerts" rel="noopener">FTC's consumer alerts</a>, <a href="https://www.cisa.gov/news-events/cybersecurity-advisories" rel="noopener">CISA's alerts</a> and the <a href="https://www.ic3.gov/PSA" rel="noopener">FBI's IC3 public service announcements</a>; only alerts about scams are listed.</p>
 <ul class="alerts">{''.join(self.alert_li(a, root) for a in rel)}</ul>
 <p><a class="btn" href="{root}">Test yourself on this week's scams</a></p>
 """
-        self.write("alerts/index.html", self.layout("alerts/", f"Latest scam alerts from the FTC and CISA | {BRAND}",
-                                                    "This week's public scam warnings from the FTC and CISA, linked to the originals and to how to spot each scam.",
+        self.write("alerts/index.html", self.layout("alerts/", f"Latest scam alerts from the FTC, CISA and FBI | {BRAND}",
+                                                    "This week's public scam warnings from the FTC, CISA and FBI, linked to the originals and to how to spot each scam.",
                                                     body, current="alerts/"))
         self.pages.append("alerts/")
 
@@ -426,7 +426,7 @@ class Site:
 <h2 id="privacy">Privacy</h2>
 <p>{'We count visits with GoatCounter, which uses no cookies and collects no personal data. ' if self.goatcounter else 'No cookies, no tracking, no accounts. '}Your answers never leave your browser. A share link carries only the test's code and, if you choose, your score.</p>
 <h2>Updates</h2>
-<p>The site checks the FTC's consumer alerts and CISA's feeds every week, updates the <a href="{root}alerts/">alerts page</a> and the lessons, and picks the next week's featured scams. New examples are added as new scams appear.</p>
+<p>The site checks the FTC's consumer alerts, CISA's feeds and the FBI's IC3 announcements every week, updates the <a href="{root}alerts/">alerts page</a> and the lessons, and picks the next week's featured scams. New examples are added as new scams appear.</p>
 <h2>Put the test on your site</h2>
 <p>Libraries, senior centers, schools and IT teams can embed a weekly “scam or legit?” card. Paste this where you want it:</p>
 <pre><code>{e(embed)}</code></pre>

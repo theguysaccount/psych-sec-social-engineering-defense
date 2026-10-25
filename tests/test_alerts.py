@@ -1,5 +1,7 @@
 """The weekly alert pull: parsing, tagging, merging and failing safe."""
+import contextlib
 import datetime as dt
+import io
 import json
 import shutil
 import sys
@@ -15,7 +17,7 @@ FIX = ROOT / "tests" / "fixtures"
 
 
 def fixture_fetcher(url):
-    name = {"consumer.ftc.gov": "ftc.xml", "alerts.xml": "cisa-alerts.xml", "news.xml": "cisa-news.xml"}
+    name = {"consumer.ftc.gov": "ftc.xml", "alerts.xml": "cisa-alerts.xml", "news.xml": "cisa-news.xml", "ic3.gov": "ic3-psa.xml"}
     for key, file in name.items():
         if key in url:
             return (FIX / file).read_text(encoding="utf-8")
@@ -33,6 +35,14 @@ class ParseTest(unittest.TestCase):
         self.assertNotIn("<", first["summary"])
         self.assertFalse(first["summary"].startswith("By "), "byline stripped")
         self.assertLessEqual(len(first["summary"]), 320)
+
+    def test_fbi_feed(self):
+        items = A.parse_feed((FIX / "ic3-psa.xml").read_text(encoding="utf-8"), "fbi-psa")
+        self.assertEqual(len(items), 5)
+        self.assertEqual(items[0]["date"], "2026-10-23")
+        tagged = {a["title"]: A.classify(a, A.load_types()) for a in items}
+        self.assertTrue(tagged["Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes"][1])
+        self.assertFalse(tagged["Critical Vulnerability Alert: PHP Core"][1])
 
     def test_cisa_feeds(self):
         alerts = A.parse_feed((FIX / "cisa-alerts.xml").read_text(encoding="utf-8"), "cisa-alerts")
@@ -80,21 +90,25 @@ class FetchTest(unittest.TestCase):
         self.tmp = Path(tempfile.mkdtemp())
         self.orig = A.ALERTS
         A.ALERTS = self.tmp / "alerts.json"
+        # The fetcher prints GitHub annotations for failed feeds; keep them out of test logs.
+        self.quiet = contextlib.redirect_stdout(io.StringIO())
+        self.quiet.__enter__()
 
     def tearDown(self):
+        self.quiet.__exit__(None, None, None)
         A.ALERTS = self.orig
         shutil.rmtree(self.tmp)
 
     def test_fetch_and_merge(self):
         self.assertEqual(A.cmd_fetch(fixture_fetcher, now="2026-10-25"), 0)
         store = json.loads(A.ALERTS.read_text())
-        self.assertEqual(len(store["alerts"]), 10 + 12 + 10)
+        self.assertEqual(len(store["alerts"]), 10 + 12 + 10 + 5)
         self.assertEqual(store["checked"], "2026-10-25")
         self.assertTrue(all(s["last_ok"] == "2026-10-25" for s in store["sources"].values()))
         # A second run a week later keeps first_seen and doesn't duplicate.
         self.assertEqual(A.cmd_fetch(fixture_fetcher, now="2026-11-01"), 0)
         store = json.loads(A.ALERTS.read_text())
-        self.assertEqual(len(store["alerts"]), 32)
+        self.assertEqual(len(store["alerts"]), 37)
         self.assertTrue(all(a["first_seen"] == "2026-10-25" for a in store["alerts"]))
         dates = [a["date"] for a in store["alerts"]]
         self.assertEqual(dates, sorted(dates, reverse=True))
@@ -118,7 +132,7 @@ class FetchTest(unittest.TestCase):
         empty = '<?xml version="1.0"?><rss><channel><title>x</title></channel></rss>'
         self.assertEqual(A.cmd_fetch(lambda url: empty, now="2026-10-26"), 0)
         store = json.loads(A.ALERTS.read_text())
-        self.assertEqual(len(store["alerts"]), 32)
+        self.assertEqual(len(store["alerts"]), 37)
         self.assertTrue(all(s["last_error"] for s in store["sources"].values()))
 
     def test_stale_sources_fail_the_run(self):

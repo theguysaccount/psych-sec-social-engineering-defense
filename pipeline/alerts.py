@@ -1,5 +1,5 @@
-"""Pull public scam alerts from the FTC and CISA, tag them with this site's scam types, and keep a
-running archive in data/alerts.json.
+"""Pull public scam alerts from the FTC, CISA and the FBI (IC3), tag them with this site's scam
+types, and keep a running archive in data/alerts.json.
 
     python3 pipeline/alerts.py fetch        # fetch the feeds and update data/alerts.json
     python3 pipeline/alerts.py candidates   # write data/candidates.json: scam alerts no scam type covers yet
@@ -15,6 +15,7 @@ import html
 import json
 import re
 import sys
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -30,6 +31,7 @@ SOURCES = {
     "ftc": {"name": "FTC", "url": "https://consumer.ftc.gov/blog/gd-rss.xml", "filter": False},
     "cisa-alerts": {"name": "CISA", "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml", "filter": True},
     "cisa-news": {"name": "CISA", "url": "https://www.cisa.gov/news.xml", "filter": True},
+    "fbi-psa": {"name": "FBI", "url": "https://www.ic3.gov/PSA/RSS", "filter": True},
 }
 
 # An alert is about scams if it says so.
@@ -130,10 +132,17 @@ def classify(alert, types):
     return ranked if relevant else [], relevant
 
 
-def fetch(url, timeout=30):
+def fetch(url, timeout=30, tries=3):
+    """GET a feed. Retries a couple of times: CISA answers some GitHub runner addresses with a 403."""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.5"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="replace")
+    for attempt in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except OSError:
+            if attempt == tries - 1:
+                raise
+            time.sleep(20 * (attempt + 1))
 
 
 def merge(store, fresh, now):
@@ -211,7 +220,7 @@ def candidates(store, days=120, on=None):
     on = on or today()
     out = []
     for a in store.get("alerts", []):
-        if (a.get("relevant") and not a.get("types") and a.get("date") and a["source"] == "FTC"
+        if (a.get("relevant") and not a.get("types") and a.get("date") and a["source"] in ("FTC", "FBI")
                 and any(has(w, a["title"].lower()) for w in NEW_TYPE_WORDS)):
             if (on - dt.date.fromisoformat(a["date"])).days <= days:
                 out.append(a)

@@ -7,6 +7,7 @@ set -euo pipefail
 CHROME="${CHROME:-$(command -v google-chrome || command -v chromium || echo "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")}"
 base="${1:-}"
 port="${PORT:-8767}"
+while (exec 3<>"/dev/tcp/127.0.0.1/$port") 2>/dev/null || (exec 3<>"/dev/tcp/127.0.0.1/$((port + 1))") 2>/dev/null; do port=$((port + 2)); done
 work="$(mktemp -d)"
 python3 -m http.server "$port" --bind 127.0.0.1 --directory "$work" >/dev/null 2>&1 &
 wrapsrv=$!

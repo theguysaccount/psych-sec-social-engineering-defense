@@ -6,7 +6,7 @@ A free two-minute test of the scams of the AI era. You see ten realistic texts, 
 
 - **25 scam types**, each with a lesson page: how it works, red flags, a real-looking example, what to do, a mini test, and the latest FTC and CISA alerts about it.
 - **70 messages** in the bank, about a quarter of them legitimate, so you have to judge rather than say "scam" to everything.
-- **Updated weekly from public alerts.** A GitHub Action pulls the FTC's consumer alerts and CISA's feeds every Monday, tags them by scam type, and the week's test leans on the scams in the news.
+- **Updated weekly from public alerts.** A GitHub Action pulls the FTC's consumer alerts, CISA's feeds and the FBI's IC3 announcements every Monday, tags them by scam type, and the week's test leans on the scams in the news. (The FTC blocks GitHub's servers, so FTC alerts also arrive through the content routine; see OPERATIONS.md.)
 - **Share loop built in.** "Send this test to your parents" and "Challenge a friend" links replay the same test; a friend's link carries only the test code and the score.
 - **No server, no tracking.** Static files on GitHub Pages. Answers stay in the browser.
 
@@ -17,7 +17,7 @@ Made by Psych Sec. Not affiliated with the FTC, CISA or any company named in exa
 | What | Where | When |
 |---|---|---|
 | Test, build, play end to end in headless Chrome, deploy, smoke-test live, IndexNow | `.github/workflows/pages.yml` | every push, and weekly after the refresh |
-| Pull FTC and CISA alerts, tag, commit, redeploy | `.github/workflows/refresh.yml` | Mondays |
+| Pull FTC, CISA and FBI alerts, tag, commit, redeploy | `.github/workflows/refresh.yml` | Mondays |
 | Live end-to-end test, page and data health checks, keep-alive | `.github/workflows/selftest.yml` | Wednesdays |
 
 Details, failure modes and the keys that switch on a custom domain, analytics and a paid team version: [OPERATIONS.md](OPERATIONS.md).
@@ -27,7 +27,7 @@ Details, failure modes and the keys that switch on a custom domain, analytics an
 ```
 data/types.json        25 scam types: lesson text, red flags, what to do, FTC/CISA sources, alert keywords
 data/items.json        the message bank (see OPERATIONS.md, "Writing items")
-data/alerts.json       FTC and CISA alert archive, updated weekly by refresh.yml
+data/alerts.json       FTC, CISA and FBI alert archive, updated weekly by refresh.yml
 data/backlog.md        scenario seeds for future items
 pipeline/alerts.py     fetch, parse, tag and merge alerts; pick the week's featured scam types
 pipeline/build.py      static site generator (standard library only) -> dist/
@@ -55,4 +55,4 @@ Deploy is a push to `main`: `pages.yml` tests, builds and publishes to GitHub Pa
 
 ## License
 
-Code: MIT (see LICENSE). Lesson text and example messages: CC BY 4.0. Alert titles and summaries are from the FTC and CISA (U.S. government works) and link to the originals.
+Code: MIT (see LICENSE). Lesson text and example messages: CC BY 4.0. Alert titles and summaries are from the FTC, CISA and FBI (U.S. government works) and link to the originals.

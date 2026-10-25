@@ -7,6 +7,8 @@ CHROME="${CHROME:-$(command -v google-chrome || command -v chromium || command -
 base="${1:-}"
 if [ -z "$base" ]; then
   port="${PORT:-8765}"
+  # Find a free port, so a leftover server from another run can't answer for this one.
+  while (exec 3<>"/dev/tcp/127.0.0.1/$port") 2>/dev/null; do port=$((port + 1)); done
   python3 -m http.server "$port" --bind 127.0.0.1 --directory dist >/dev/null 2>&1 &
   srv=$!
   trap 'kill $srv 2>/dev/null || true' EXIT

@@ -3,7 +3,7 @@
   "ftc": {
    "url": "https://consumer.ftc.gov/blog/gd-rss.xml",
    "last_ok": "2026-10-25",
-   "last_error": null,
+   "last_error": "2026-10-25: HTTPError: HTTP Error 403: Forbidden",
    "items": 10
   },
   "cisa-alerts": {
@@ -17,9 +17,37 @@
    "last_ok": "2026-10-25",
    "last_error": null,
    "items": 10
+  },
+  "fbi-psa": {
+   "url": "https://www.ic3.gov/PSA/RSS",
+   "last_ok": "2026-10-25",
+   "last_error": null,
+   "items": 5
   }
  },
  "alerts": [
+  {
+   "url": "https://www.ic3.gov/PSA/2026/PSA261023-2",
+   "title": "Suspicious Letters Containing White Powder Mailed to State and Local Election Officials, Media Organizations, and Public and Private Polling Companies",
+   "date": "2026-10-23",
+   "source": "FBI",
+   "feed": "fbi-psa",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.ic3.gov/PSA/2026/PSA261023",
+   "title": "Critical Vulnerability Alert: PHP Core",
+   "date": "2026-10-23",
+   "source": "FBI",
+   "feed": "fbi-psa",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
   {
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -100,6 +128,17 @@
    "first_seen": "2026-10-25"
   },
   {
+   "url": "https://www.ic3.gov/PSA/2026/PSA261016",
+   "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+   "date": "2026-10-16",
+   "source": "FBI",
+   "feed": "fbi-psa",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
    "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
    "date": "2026-10-16",
@@ -117,6 +156,28 @@
    "source": "CISA",
    "feed": "cisa-alerts",
    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability CVE-2026-102764 BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability These types of…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+   "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+   "date": "2026-10-15",
+   "source": "FBI",
+   "feed": "fbi-psa",
+   "summary": "",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.ic3.gov/PSA/2026/PSA261015-2",
+   "title": "FBI Warns Voters on Election Crimes Ahead of the November 2026 Midterm Election",
+   "date": "2026-10-15",
+   "source": "FBI",
+   "feed": "fbi-psa",
+   "summary": "",
    "types": [],
    "relevant": false,
    "first_seen": "2026-10-25"
