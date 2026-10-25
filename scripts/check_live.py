@@ -3,7 +3,8 @@
     python3 scripts/check_live.py https://theguysaccount.github.io/psych-sec-social-engineering-defense
 
 Checks: every sitemap URL answers 200 with its own canonical URL; the quiz data loads; the weekly
-rebuild ran in the last 9 days; the alert pull worked in the last 10 days; CISA source links resolve.
+rebuild ran in the last 9 days; the alert pull worked in the last 10 days; CISA source links haven't
+gone (404/410).
 (FTC pages block automated requests, so FTC links are checked by people, not by this script.)
 Exits 1 on any failure.
 """
@@ -11,6 +12,7 @@ import datetime as dt
 import json
 import re
 import sys
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -58,11 +60,17 @@ def main(base):
         if s.get("last_error"):
             print(f"::warning::alert source {key}: {s['last_error']}")
     types = json.loads((ROOT / "data" / "types.json").read_text(encoding="utf-8"))
+    # CISA's bot filter answers some runner addresses with 403; only a 404 or 410 means a link is gone.
     for url in sorted({s["url"] for t in types for s in t["sources"] if "cisa.gov" in s["url"]}):
         try:
             get(url)
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                problems.append(f"source link {url}: {e}")
+            else:
+                print(f"::warning::couldn't verify {url}: {e}")
         except Exception as e:
-            problems.append(f"source link {url}: {e}")
+            print(f"::warning::couldn't verify {url}: {e}")
     print(f"checked {len(urls)} pages")
     for p in problems:
         print(f"::error::{p}")
