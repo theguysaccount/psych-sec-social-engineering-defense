@@ -187,7 +187,11 @@ class Quiz {
     const byId = Object.fromEntries(this.items.map((i) => [i.id, i]));
     const fooled = g.fooledBy.map((id) => byId[id]);
     const overcautious = g.missed.filter((id) => byId[id].verdict === "legit").map((id) => byId[id]);
-    const li = (it) => `<li><b>${escapeHtml(types[it.type] ? types[it.type].name : it.type)}</b> (${escapeHtml(CHANNELS[it.channel] ? CHANNELS[it.channel].label.toLowerCase() : it.channel)}): ${escapeHtml(it.why)} <a href="${lessonUrl(types, it.type)}">Lesson →</a></li>`;
+    const channel = (it) => (CHANNELS[it.channel] ? CHANNELS[it.channel].label : it.channel);
+    const typeName = (it) => (types[it.type] ? types[it.type].name : it.type);
+    const li = (it) => it.verdict === "scam"
+      ? `<li><b>${escapeHtml(typeName(it))}</b> (${escapeHtml(channel(it).toLowerCase())}): ${escapeHtml(it.why)} <a href="${lessonUrl(types, it.type)}">Lesson →</a></li>`
+      : `<li><b>A real ${escapeHtml(channel(it).toLowerCase())}</b>: ${escapeHtml(it.why)} <a href="${lessonUrl(types, it.type)}">How to tell it from ${escapeHtml(typeName(it).toLowerCase())} →</a></li>`;
 
     let html;
     if (this.mode === "type") {

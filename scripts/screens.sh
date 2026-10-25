@@ -26,6 +26,7 @@ shot() { # name page width height
     url="http://127.0.0.1:$port/$name.html"
   fi
   "$CHROME" --headless=new --disable-gpu --no-first-run --no-default-browser-check --hide-scrollbars \
+    --blink-settings=preferredColorScheme=1 \
     --user-data-dir="$work/profile" --window-size="$width,$height" --virtual-time-budget=8000 \
     --screenshot="docs/screens/$name.png" "$url" >/dev/null 2>&1
   echo "docs/screens/$name.png"
