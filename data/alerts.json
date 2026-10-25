@@ -1,0 +1,870 @@
+{
+ "sources": {
+  "ftc": {
+   "url": "https://consumer.ftc.gov/blog/gd-rss.xml",
+   "last_ok": "2026-10-25",
+   "last_error": null,
+   "items": 10
+  },
+  "cisa-alerts": {
+   "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+   "last_ok": "2026-10-25",
+   "last_error": null,
+   "items": 30
+  },
+  "cisa-news": {
+   "url": "https://www.cisa.gov/news.xml",
+   "last_ok": "2026-10-25",
+   "last_error": null,
+   "items": 10
+  }
+ },
+ "alerts": [
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-10-23",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-110447 Collabora Online – Built-in CODE Server OS Command Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-10-23",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114625 Arista VeloCloud Orchestrator SQL Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number",
+   "title": "The FTC is not calling to deactivate your phone number",
+   "date": "2026-10-22",
+   "summary": "Here’s the latest twist on FTC impersonators: someone claiming to be an FTC official (who’s really a scammer) calls to say a phone was registered under your name and number and is being used to commit scams in another country. The “FTC official” even reads off their badge ID (it’s a fake badge). If you don’t cooperate, they threaten to deactivate your phone number.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "government-impostor"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical",
+   "title": "CISA, FBI and Partners Warn Organizations of SafePay Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
+   "date": "2026-10-21",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+   "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+   "date": "2026-10-21",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "Update October 23, 2026 : CISA has updated this Alert to: (1) provide a SIGMA detection rule to help identify potentially suspicious activity; (2) incorporate partner resources; and (3) reinforce existing mitigation guidance. Purpose CISA strongly urges organizations to immediately patch the recently disclosed…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-20",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96652 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability CVE-2026-96654 Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/10/some-franchising-basics-ftcs-case-against-premier-martial-arts-franchisor",
+   "title": "Some franchising basics from the FTC’s case against Premier Martial Arts franchisor",
+   "date": "2026-10-19",
+   "summary": "If you’re thinking of buying a franchise, you’re probably considering lots of factors — weighing benefits like training and brand name recognition with potential risks and costs. Like any other business, a franchise has no guarantee of success. That’s why franchisors are required to give potential buyers honest information about what it takes to open and operate their franchise.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+   "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+   "date": "2026-10-16",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat actors are actively…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-16",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability CVE-2026-102764 BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability These types of…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-10-15",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability This type of vulnerability is a frequent attack vector for malicious…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-14",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-0322 Palo Alto Networks PAN-OS Code Injection Vulnerability CVE-2026-76519 Cisco Secure Email Gateway Relative Path Traversal Vulnerability CVE-2026-105133 Ahsay AhsayCBS…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+   "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+   "date": "2026-10-13",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935 , affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior. CISA is aware of cyber threat actors exploiting this zero-day authentication bypass vulnerability, which allows remote,…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-13",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96951 Microsoft Windows Command Injection Vulnerability CVE-2026-104935 Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability These types of…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/10/how-avoid-deceptive-sextortion-assistance-services-and-find-real-help",
+   "title": "How to avoid deceptive sextortion assistance services and find real help",
+   "date": "2026-10-13",
+   "summary": "Sextortion — when someone threatens to share your intimate images unless you pay — can be stressful and upsetting. And figuring out what to do can be overwhelming. While searching for help, you might find companies that offer quick fixes (for a price) but don’t deliver on their promises.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-fbi-nsa-and-international-partners-warn-china-based-cybersecurity-company-enabling-threat",
+   "title": "CISA, FBI, NSA and International Partners Warn of China-based Cybersecurity Company Enabling Threat Actors to Target Multiple Critical Infrastructure Sectors Worldwide",
+   "date": "2026-10-08",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/10/did-someone-share-explicit-image-your-child-online-take-these-steps",
+   "title": "Did someone share an explicit image of your child online? Take these steps",
+   "date": "2026-10-07",
+   "summary": "Did someone share an explicit image of your child online? Possessing or sharing explicit images of children can be a serious crime — and that includes AI-generated deepfakes. Report the perpetrator",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-10-04",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88779 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability This type of vulnerability is a frequent attack vector for…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-02",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102489 Zammad GmbH Zammad Session Fixation Vulnerability CVE-2026-102490 Zammad GmbH Zammad Improper Privilege Management Vulnerability These types of vulnerabilities are…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-launches-cybersecurity-awareness-month-securing-next-250",
+   "title": "CISA Launches Cybersecurity Awareness Month: Securing the Next 250",
+   "date": "2026-10-01",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-10-01",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/talking-parents-and-kids-about-deepfakes-online-safety-and-take-it-down-act",
+   "title": "Talking with parents and kids about deepfakes, online safety, and the Take It Down Act",
+   "date": "2026-10-01",
+   "summary": "Kids face a lot of challenges online: from cyberbullying and scams to digitally altered deepfakes, like nudify apps that create fake nude photos and videos of real people.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-30",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-29",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-86950 Apple Multiple Products Out-of-Bounds Write Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/what-know-ahead-open-enrollment-avoid-health-insurance-scams",
+   "title": "What to know ahead of Open Enrollment to avoid health insurance scams",
+   "date": "2026-09-28",
+   "summary": "Health insurance scams happen year-round, but they pick up during Open Enrollment for Medicare and the Marketplace. If you’re looking to find a new plan, you might search online. But before you click on a search result, remember: scammers and dishonest businesses sometimes pay to appear at the top.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "health-insurance"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+   "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+   "date": "2026-09-27",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "Update October 9, 2026 : CISA has updated this Alert to: (1) include CVE-2026-107406; (2) include CVE-2026-88779 following its addition to the KEV Catalog on Oct. 4, 2026; (3) clarify the potential relationship between CVE-2026-88779 and CVE-2026-88771; and (4) emphasize the importance of promptly applying patches…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-27",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-88772 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-25",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-65660 Microsoft SharePoint Code Injection Vulnerability CVE-2026-67279 Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability These types of…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-25",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-87902 WordPress Core Remote File Inclusion Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-24",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-5430 WSO2 Multiple Products Path Traversal Vulnerability CVE-2026-71362 Adobe Commerce and Magento Incorrect Authorization Vulnerability These types of vulnerabilities are…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-whitepaper-charts-path-establishing-and-maturing-cve-program-quality",
+   "title": "CISA Whitepaper Charts Path to Establishing and Maturing CVE Program Quality",
+   "date": "2026-09-23",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/how-report-platform-doesnt-take-down-your-intimate-images",
+   "title": "How to report a platform that doesn't take down your intimate images",
+   "date": "2026-09-23",
+   "summary": "You reported an intimate photo or video shared without your consent. But 48 hours later, the platform hasn’t taken it down or responded to your request. Now what? Report the platform to the FTC.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-22",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Products Improper Certificate Validation Vulnerability CVE-2026-93616 Check Point Multiple Products Path Traversal Vulnerability CVE-2026-93952…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-21",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-hosts-cyber-storm-x-nationwide-cybersecurity-exercise-strengthen-resilience",
+   "title": "CISA Hosts Cyber Storm X, Nationwide Cybersecurity Exercise to Strengthen Resilience",
+   "date": "2026-09-18",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-18",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39964 Linux Kernel Race Condition Vulnerability CVE-2026-53266 Linux Kernel Out-of-Bounds Write Vulnerability These types of vulnerabilities are a frequent attack vector…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-18",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39682 Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/did-online-platform-fail-quickly-take-down-your-intimate-images-report-it-ftc",
+   "title": "Did an online platform fail to quickly take down your intimate images? Report it to the FTC",
+   "date": "2026-09-17",
+   "summary": "If someone shares an intimate photo or video of you online without your permission, it can be stressful and upsetting. That’s why the law requires platforms to give you an easy way to submit a request.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/new-cisa-guidance-helps-critical-infrastructure-detect-observe-and-impede-malicious-cyber-activity",
+   "title": "New CISA Guidance Helps Critical Infrastructure Detect, Observe and Impede Malicious Cyber Activity",
+   "date": "2026-09-16",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-16",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76460 Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability CVE-2026-87886 Acronis Backup Incorrect Default Permissions Vulnerability These types…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-16",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-58704 Google Pixel Improper Authorization Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-and-nist-release-guidelines-protect-federal-cloud-identity-systems-token-theft-forgery-and",
+   "title": "CISA and NIST Release Guidelines to Protect Federal Cloud Identity Systems from Token Theft, Forgery, and Misuse",
+   "date": "2026-09-15",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-impersonating-farm-equipment-businesses",
+   "title": "Scammers are impersonating farm equipment businesses",
+   "date": "2026-09-15",
+   "summary": "The FTC is hearing about a scam targeting some of the hardest working people out there: farmers. Scammers posing as farm equipment businesses are selling (fake) equipment to farmers, who end up empty-handed.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "fake-store"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-14",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76461 Cisco Secure Email Gateway SQL Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-11",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42016 JFrog Artifactory Incorrect Authorization Vulnerability CVE-2026-42018 JFrog Artifactory Improper Authentication Vulnerability CVE-2026-84869 ConnectWise…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-09-11",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-85706 GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-09-10",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-67277 MikroTik RouterOS Missing Authentication for Critical Function Vulnerability CVE-2026-86060 MikroTik RouterOS Improper Neutralization of Argument Delimiters in a…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/was-your-intimate-image-shared-online-without-your-consent-heres-what-do",
+   "title": "Was your intimate image shared online without your consent? Here’s what to do",
+   "date": "2026-09-10",
+   "summary": "Did someone violate your trust and privacy by sharing your intimate images online without your consent? Or did they digitally alter or create an intimate image of you? You have rights.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-releases-updated-insider-threat-guide-new-insights-mitigate-physical-and-cyber-threats",
+   "title": "CISA Releases Updated Insider Threat Guide With New Insights to Mitigate Physical and Cyber Threats",
+   "date": "2026-09-09",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/national-preparedness-month-plan-ahead-avoid-scams",
+   "title": "This National Preparedness Month, plan ahead to avoid scams",
+   "date": "2026-09-09",
+   "summary": "Recent violent storms, tornadoes, wildfires, heat waves, and extreme flooding are a reminder that severe weather and natural disasters can happen anytime, anywhere, and with little warning.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-nsa-and-fbi-warn-china-based-ai-companies-targeting-us-ai-models-industrial-scale-knowledge",
+   "title": "CISA, NSA and FBI Warn of China-Based AI Companies Targeting US AI Models with Industrial-Scale Knowledge Distillation Campaigns to Shortcut AI Development",
+   "date": "2026-09-08",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/see-qr-code-parked-somewhere-dont-scan-ityet",
+   "title": "See a QR code parked somewhere? Don’t scan it…yet!",
+   "date": "2026-09-03",
+   "summary": "Ever tried to pay for parking and discovered you need to scan a QR code to pay? It seems like a convenient way to pay, but it turns out scammers like using QR codes, too.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "qr-code"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/scammers-are-spoofing-car-dealership-websites-what-you-need-know",
+   "title": "Scammers are spoofing car dealership websites: What you need to know",
+   "date": "2026-09-01",
+   "summary": "While the car-buying process can be stressful, whether you’re shopping online or in person, scammers are copying car dealership websites to take buyers’ money.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "fake-store"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/did-you-spot-scam-heres-what-do-next",
+   "title": "Did you spot a scam? Here’s what to do next",
+   "date": "2026-08-28",
+   "summary": "Many people experience fraud but never report it, and scammers count on you staying silent. Your story — especially when you share it with friends, family, and the FTC — is a powerful tool.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/when-donating-support-those-need-not-scammer",
+   "title": "When donating, support those in need, not a scammer",
+   "date": "2026-08-27",
+   "summary": "It seems like every day, a major weather emergency or natural disaster happens somewhere in the world. Before you donate to help people affected by disasters, make sure your money goes to a real charity.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "charity"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-advisory-highlights-red-team-findings-help-organizations-assess-risk-identify-threats-and",
+   "title": "CISA Advisory Highlights Red Team Findings to Help Organizations Assess Risk, Identify Threats and Enable Effective Incident Response",
+   "date": "2026-08-25",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-postcard-scam-targeting-veterans",
+   "title": "How to spot a postcard scam targeting veterans",
+   "date": "2026-08-24",
+   "summary": "Veterans across the country have reported getting postcards in the mail saying they (or their spouse) might qualify for extra monthly veterans benefits. But the “Veterans Savings Program” mentioned in them isn’t what it seems.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam",
+   "title": "That unexpected package you got could be a brushing scam",
+   "date": "2026-08-20",
+   "summary": "Did you get a package you didn’t order? It could be a brushing scam where a scammer uses your name to leave a fake review for that package you didn’t order.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "package-delivery",
+    "qr-code"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/searching-online-bill-pay-impersonators",
+   "title": "Searching online: bill pay impersonators",
+   "date": "2026-08-17",
+   "summary": "Planning to pay a bill online? Before you start searching for a company’s payment site, know that dishonest companies sometimes use paid search ads to trick you into paying them instead of the company.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "utility"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/struggling-tax-debt-heres-what-know",
+   "title": "Struggling with tax debt? Here’s what to know",
+   "date": "2026-08-13",
+   "summary": "If you owe back taxes, there are ways to get real help. But dishonest companies will promise to get rid of your debt for “pennies on the dollar,” before even looking into your tax situation. They’ll often charge service fees without actually doing anything for you, and leave you further in the hole with local, state, or federal tax authorities.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/are-ads-social-media-vetted-or-checked-scams-heres-what-know",
+   "title": "Are ads on social media vetted or checked for scams? Here’s what to know",
+   "date": "2026-08-10",
+   "summary": "You’re browsing your social media feed when an ad grabs your attention mid-swipe: that designer bag you’ve been dreaming of is 50% off for a limited time only!",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "fake-store"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-investment-training-scams-social-media",
+   "title": "How to spot investment training scams on social media",
+   "date": "2026-08-07",
+   "summary": "Learn to trade online! Get rich! Quit your job! Social media is flooded with people flashing fancy cars and exotic trips, claiming you can have the same lifestyle just by “learning to trade.”",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "wrong-number"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/have-you-lost-money-scam-watch-scammers-who-say-they-can-help",
+   "title": "Have you lost money to a scam? Watch for scammers who say they can help",
+   "date": "2026-08-03",
+   "summary": "They’re the worst of the absolute worst: scams that target people who have already lost money to a scam. If you or someone you know paid a scammer, watch for scammers who pretend they can help get the money back.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "refund-recovery"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/07/talk-your-friends-and-family-fight-fraud",
+   "title": "Talk to your friends and family to fight fraud",
+   "date": "2026-07-30",
+   "summary": "One of the best ways to fight fraud is to talk about it. When you know scammers’ tactics, they’re easier to spot and avoid.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/07/veterans-dont-pay-apply-va-benefits",
+   "title": "Veterans: Don’t pay to apply for VA benefits",
+   "date": "2026-07-27",
+   "summary": "Scammers know that applying for veterans benefits is at the top of the to-do list when you’re getting ready to leave the military. That’s why they pretend to be with the Department of Veterans Affairs.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "government-impostor"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/07/way-spot-scams-how-someone-asks-you-pay",
+   "title": "A way to spot scams: how someone asks you to pay",
+   "date": "2026-07-22",
+   "summary": "Let’s say someone contacts you unexpectedly and says you have to pay to fix a problem, get a prize, or something else. But then they say the only way to pay is by bank transfer, wire transfer, gift card or crypto.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "payment-method"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/07/how-spot-fake-rental-listings-during-military-move",
+   "title": "How to spot fake rental listings during a military move",
+   "date": "2026-07-13",
+   "summary": "Whether you’ve been planning a move for months or you’re dealing with last-minute orders, military moves can be both exciting and stressful. The last thing you need is a rental scam.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "rental"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/07/unclaimed-life-insurance-money-its-scam",
+   "title": "Unclaimed life insurance money? It’s a scam",
+   "date": "2026-07-09",
+   "summary": "People are telling the FTC they’ve gotten letters in the mail from law firms about unclaimed life insurance money. It’s a scam.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "prize"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/07/can-you-spot-debt-relief-scams-target-military",
+   "title": "Can you spot debt relief scams that target the military?",
+   "date": "2026-07-06",
+   "summary": "Scammers promise to solve your debt problems to trick you into paying them instead of your actual lender. If a caller offers to help you enroll in a special “military debt forgiveness” program, pause.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "refund-recovery"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams",
+   "title": "Animal lovers: learn to spot and avoid this breed of pet scams",
+   "date": "2026-06-24",
+   "summary": "Scammers have been taking advantage of how much people love animals. They’ll steal and manipulate pet images, videos, and even use AI-generated deepfakes to help them trick you into giving them your money.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "fake-store"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/how-avoid-travel-scam-summer",
+   "title": "How to avoid a travel scam this summer",
+   "date": "2026-06-17",
+   "summary": "If you haven't made your vacation plans yet, you might be looking for a deal. While you look for bargains, scammers are looking for ways to reach you…and your money.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "fake-store"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/help-fight-imposter-scams-world-elder-abuse-awareness-day",
+   "title": "Help fight imposter scams this World Elder Abuse Awareness Day",
+   "date": "2026-06-15",
+   "summary": "World Elder Abuse Awareness Day gives all of us a chance to raise awareness about elder financial abuse, neglect, and exploitation, including imposter scams.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty",
+   "title": "Ignore calls, texts, and emails threatening to arrest you for missing jury duty",
+   "date": "2026-06-11",
+   "summary": "Did you get a call claiming you missed jury duty and need to pay? Followed by a text or email with official-looking documents saying there’s a warrant out for your arrest? As alarming as these things sound, they’re a scam designed to steal your money.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "jury-duty"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/searching-health-insurance-keep-scrolling-avoid-government-impersonators",
+   "title": "Searching for health insurance? Keep scrolling to avoid government impersonators",
+   "date": "2026-06-09",
+   "summary": "When you search online, do you click the first result you see? That habit could cost you — especially if you’re searching for health insurance or government healthcare programs.",
+   "source": "FTC",
+   "feed": "ftc",
+   "types": [
+    "government-impostor",
+    "health-insurance"
+   ],
+   "relevant": true,
+   "first_seen": "2026-10-25"
+  }
+ ],
+ "checked": "2026-10-25"
+}

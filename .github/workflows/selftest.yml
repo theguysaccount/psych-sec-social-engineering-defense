@@ -1,0 +1,61 @@
+# Weekly: run the tests, play the live site end to end, check every page and the data freshness,
+# and keep the scheduled workflows from being disabled for inactivity. A failure opens (or
+# comments on) an issue labeled ops-alert, and GitHub emails the repository owner.
+name: Weekly self-test
+
+on:
+  schedule:
+    - cron: "41 15 * * 3"   # Wednesdays 15:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+env:
+  SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+
+jobs:
+  selftest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Unit tests
+        run: |
+          python3 -m unittest discover -s tests
+          node --test tests/js/*.test.mjs
+      - name: Play the live site end to end
+        run: scripts/e2e.sh "$SITE_URL/"
+      - name: Every page, the quiz data and the weekly refresh are healthy
+        run: python3 scripts/check_live.py "$SITE_URL"
+      - name: Record the failure in an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create ops-alert --color B42318 --description "Automated health check failed" 2>/dev/null || true
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          open=$(gh issue list --label ops-alert --state open --json number --jq '.[0].number')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body "Still failing: $run"
+          else
+            gh issue create --label ops-alert --title "Weekly self-test failed" --body "The weekly self-test failed: $run. See OPERATIONS.md for what each check means."
+          fi
+
+  keepalive:
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keep scheduled workflows enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: scripts/keepalive.sh

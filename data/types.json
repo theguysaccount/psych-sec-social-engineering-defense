@@ -1,0 +1,1030 @@
+[
+  {
+    "slug": "toll-text",
+    "name": "Unpaid toll texts",
+    "title": "Unpaid toll text scams: how to spot them",
+    "description": "Got a text saying you owe a toll and must pay today? See real examples, the tells, and what to do, from FTC guidance. Then test yourself.",
+    "short": "A text says you owe a small toll and must pay today through a link, or face fees.",
+    "how": [
+      "The text names a toll service, a small unpaid amount (often under $10) and a deadline of a day or two. It threatens late fees, a suspended license or a court referral. The link goes to a copy of a payment page that takes your card details.",
+      "The small amount is the hook: it feels too minor to question. Scammers send these to everyone, including people who have never used a toll road."
+    ],
+    "flags": [
+      "You didn't expect it, and it's urgent: pay today or face fees.",
+      "The link isn't the toll agency's own website.",
+      "It threatens your license, registration or a court case over a few dollars.",
+      "It came from a random phone number or an email address, not a short code you signed up for."
+    ],
+    "do": [
+      "Don't click the link or reply.",
+      "Check your toll account by typing the official website yourself, or calling the number on your toll pass or statement.",
+      "Report the text by forwarding it to 7726 (SPAM), then delete it."
+    ],
+    "keywords": [
+      "toll",
+      "e-zpass",
+      "ezpass",
+      "sunpass",
+      "fastrak",
+      "traffic violation",
+      "traffic ticket"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Got a text about unpaid tolls? It's probably a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/01/got-text-about-unpaid-tolls-its-probably-scam"
+      },
+      {
+        "title": "FTC: That text about a traffic violation is probably a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/text-about-traffic-violation-probably-scam"
+      }
+    ]
+  },
+  {
+    "slug": "package-delivery",
+    "name": "Delivery texts and emails",
+    "title": "Fake package delivery texts and emails: how to spot them",
+    "description": "“We couldn't deliver your package” texts are one of the most common scams of the holiday season. Real examples, the tells, and what to do.",
+    "short": "A message says a package can't be delivered until you confirm your address or pay a small fee.",
+    "how": [
+      "The message claims a delivery failed because of an incomplete address or an unpaid fee, and links to a page that looks like a carrier's site. It asks for your address, then a small “redelivery fee” by card. The real goal is your card number and personal details.",
+      "These spike in November and December, when nearly everyone is expecting something. AI tools now write them without the spelling mistakes people used to look for."
+    ],
+    "flags": [
+      "You didn't sign up for texts from that carrier, or you're not expecting anything from them.",
+      "It asks you to pay a fee or “update” your address through a link.",
+      "The link's website isn't the carrier's real one, even if the carrier's name is in it.",
+      "It says your package will be returned or destroyed unless you act fast."
+    ],
+    "do": [
+      "Don't tap the link. Open the store's or carrier's app yourself, or type their website, and look up your tracking number there.",
+      "Carriers don't charge surprise fees by text to deliver a package.",
+      "Forward scam texts to 7726 (SPAM) and delete them."
+    ],
+    "keywords": [
+      "package",
+      "delivery",
+      "shipping",
+      "usps",
+      "fedex",
+      "ups",
+      "redelivery",
+      "parcel",
+      "brushing"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Think that text message is from USPS? It could be a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam"
+      },
+      {
+        "title": "FTC: Fake shipping notification emails and text messages",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2023/12/fake-shipping-notification-emails-text-messages-what-you-need-know-holiday-season"
+      },
+      {
+        "title": "FTC: How to recognize and report spam text messages",
+        "url": "https://consumer.ftc.gov/articles/how-recognize-and-report-spam-text-messages"
+      }
+    ]
+  },
+  {
+    "slug": "bank-impostor",
+    "name": "Fake bank fraud alerts",
+    "title": "Fake bank fraud alert scams: texts and calls that empty accounts",
+    "description": "A “fraud department” calls about a suspicious charge and asks for a code or tells you to move your money. Here's how the scam works and how to spot it.",
+    "short": "A text or call from your “bank's fraud team” about a charge, then a request for a code or to move your money.",
+    "how": [
+      "It often starts with a text asking whether you made a large purchase. Reply, and someone calls from what looks like your bank's number (caller ID can be faked). They know your name and maybe part of your card number. To “stop the fraud” they ask for the one-time code your bank just texted you, or tell you to move your savings to a “safe account”.",
+      "The code lets them sign in as you. The “safe account” is theirs. Your bank will never ask you to move money to protect it."
+    ],
+    "flags": [
+      "Someone asks you to read back a code your bank sent you.",
+      "You're told to move or withdraw money to “protect” it.",
+      "You're told not to tell anyone, including bank staff at a branch.",
+      "The caller ID shows your bank's name, which can be faked."
+    ],
+    "do": [
+      "Hang up. Call the number on the back of your card or in your bank's app.",
+      "Never share a one-time code with anyone who contacts you.",
+      "No real bank asks you to move money to a “safe account”."
+    ],
+    "keywords": [
+      "bank impersonat",
+      "your bank",
+      "fraud department",
+      "safe account",
+      "move your money",
+      "transfer your money",
+      "bank account"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Got a call about fraud activity on your bank account? It could be a scammer",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2024/06/got-call-about-fraud-activity-your-bank-account-it-could-be-scammer"
+      },
+      {
+        "title": "FTC: Never move your money to “protect it.” That's a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2024/03/never-move-your-money-protect-it-thats-scam"
+      }
+    ]
+  },
+  {
+    "slug": "government-impostor",
+    "name": "Government impostors",
+    "title": "Government impostor scams: fake IRS, Social Security and FTC calls",
+    "description": "Callers claiming to be from the IRS, Social Security or even the FTC threaten arrest or a suspended number. See how it works and how to spot it.",
+    "short": "Someone claiming to be from a government agency says you're in trouble and must pay or “verify” now.",
+    "how": [
+      "The caller gives a name and badge number and says your Social Security number was used in a crime, you owe back taxes, or your phone number is being used for fraud and will be cut off. They may email a fake document to make it feel official. Then comes the ask: pay a fine, “verify” your identity, or move money.",
+      "Government agencies don't call, text or email to demand immediate payment, threaten arrest, or ask for payment by gift card, crypto or wire transfer."
+    ],
+    "flags": [
+      "They threaten arrest, deportation, a suspended Social Security number or a cut-off phone line.",
+      "They want payment now, especially by gift card, crypto, wire or cash.",
+      "They read out a badge number or send an “official” letter by email.",
+      "They tell you to stay on the line and not talk to anyone."
+    ],
+    "do": [
+      "Hang up. Look up the agency's real number on its .gov website and call it yourself.",
+      "Your Social Security number can't be “suspended”.",
+      "Report it at ReportFraud.ftc.gov."
+    ],
+    "keywords": [
+      "irs",
+      "social security",
+      "ssa",
+      "government impersonat",
+      "government imposter",
+      "badge",
+      "federal agent",
+      "fema",
+      "ftc is not",
+      "deactivate",
+      "tax refund",
+      "veterans affairs",
+      "va benefits",
+      "government healthcare"
+    ],
+    "sources": [
+      {
+        "title": "FTC: How to avoid a government impersonation scam",
+        "url": "https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam"
+      },
+      {
+        "title": "FTC: The FTC is not calling to deactivate your phone number",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number"
+      },
+      {
+        "title": "FTC: Your Social Security number isn't suspended. Ever.",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2022/08/your-social-security-number-isnt-suspended-ever"
+      },
+      {
+        "title": "FTC: That text or email about your “tax refund” is a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/01/text-or-email-about-your-tax-refund-scam"
+      }
+    ]
+  },
+  {
+    "slug": "jury-duty",
+    "name": "Missed jury duty threats",
+    "title": "Missed jury duty scams: calls and texts threatening arrest",
+    "description": "A “deputy” says you missed jury duty and will be arrested unless you pay a fine today. Courts don't work that way. Examples and tells.",
+    "short": "A caller claiming to be a sheriff's deputy or court officer says you missed jury duty and must pay to avoid arrest.",
+    "how": [
+      "The caller uses a real local officer's name, a case number and a stern tone. You missed a summons, they say, and there's a warrant. You can clear it today by paying a fine, often with prepaid cards, a payment app or a Bitcoin ATM, sometimes while staying on the phone. Some versions send you to a fake court website to “verify” with your Social Security number.",
+      "Real courts communicate about jury service by mail and don't demand fines over the phone."
+    ],
+    "flags": [
+      "A threat of immediate arrest unless you pay now.",
+      "Payment by gift card, payment app, crypto or Bitcoin ATM.",
+      "They keep you on the phone while you go and pay.",
+      "A website that asks for your Social Security number to “check” a warrant."
+    ],
+    "do": [
+      "Hang up. Call the clerk of your local court using the number on the court's official website.",
+      "Never pay a “fine” to someone who called you."
+    ],
+    "keywords": [
+      "jury duty",
+      "warrant",
+      "arrest"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Ignore calls, texts, and emails threatening to arrest you for missing jury duty",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty"
+      },
+      {
+        "title": "FTC: Scammers are using fake websites in a twist on jury duty scams",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/08/scammers-are-using-fake-websites-twist-jury-duty-scams"
+      }
+    ]
+  },
+  {
+    "slug": "family-emergency",
+    "name": "Family emergencies and voice clones",
+    "title": "Family emergency and AI voice-clone scams: the “grandparent” call",
+    "description": "A call in your grandchild's voice says they're in trouble and need money, and begs you not to tell anyone. AI makes the voice convincing. Here's how to check.",
+    "short": "A panicked call from a “grandchild” or other relative who needs money right now, and asks you to keep it secret.",
+    "how": [
+      "The call sounds like someone you love: crying, rushed, in trouble after an accident or an arrest. Sometimes a “lawyer” or “officer” takes over. They need money for bail or fees, today, by cash, gift cards, crypto or a courier who comes to your door. And please don't tell Mom and Dad.",
+      "A few seconds of someone's voice from a social media video is enough for AI to clone it. A familiar voice no longer proves who is calling."
+    ],
+    "flags": [
+      "An emergency, plus a request for money, plus a request for secrecy.",
+      "Payment by cash, gift cards, crypto or a courier pickup.",
+      "The voice sounds right but the call is short, muffled or emotional, and they won't answer questions.",
+      "Someone else, like a “lawyer”, takes over the call."
+    ],
+    "do": [
+      "Hang up and call the person directly on the number you already have, or call another family member.",
+      "Agree on a family code word now that a caller must know.",
+      "Never send cash, gift cards or crypto to someone because of a call like this."
+    ],
+    "keywords": [
+      "family emergency",
+      "grandparent",
+      "grandchild",
+      "voice clon",
+      "bail"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Scammers use fake emergencies to steal your money",
+        "url": "https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money"
+      },
+      {
+        "title": "FTC: Scammers use AI to enhance their family emergency schemes",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes"
+      }
+    ]
+  },
+  {
+    "slug": "tech-support",
+    "name": "Tech support pop-ups and calls",
+    "title": "Tech support scams: fake virus warnings and “Microsoft” calls",
+    "description": "A loud pop-up says your computer is infected and to call a number now. Real virus warnings never do that. See examples and what to do.",
+    "short": "A pop-up or call says your computer is infected and you must call a number or allow remote access.",
+    "how": [
+      "A web page takes over your screen with a warning, sometimes with an alarm sound, saying your computer is locked or infected. It gives a phone number for “support”. The person who answers asks to connect to your computer, then “finds” problems and charges you to fix them, or uses the access to get into your bank account.",
+      "Real security warnings from your computer's maker never ask you to call a phone number."
+    ],
+    "flags": [
+      "A warning in your web browser with a phone number to call.",
+      "You're told not to turn off or restart the computer.",
+      "Someone asks for remote access to your computer.",
+      "You're asked to pay for support with gift cards, crypto or a wire."
+    ],
+    "do": [
+      "Don't call the number. Close the browser; if it won't close, restart the computer.",
+      "Never give remote access to someone who contacted you first.",
+      "If you need help, go to a repair shop or company you already trust."
+    ],
+    "keywords": [
+      "tech support",
+      "technical support",
+      "virus",
+      "remote access",
+      "pop-up",
+      "computer is infected"
+    ],
+    "sources": [
+      {
+        "title": "FTC: How to spot, avoid, and report tech support scams",
+        "url": "https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams"
+      }
+    ]
+  },
+  {
+    "slug": "fake-renewal",
+    "name": "Fake renewal invoices",
+    "title": "Fake subscription renewal and invoice scams",
+    "description": "An email says you've been charged $399 for a renewal you don't remember and to call to cancel. That call is the trap. Examples and tells.",
+    "short": "An invoice for a subscription renewal you didn't order, with a phone number to call to cancel or get a refund.",
+    "how": [
+      "The email looks like a receipt for antivirus, computer support or a shopping membership, for a few hundred dollars. It wants you to panic and call the number. The “refund agent” then asks to connect to your computer to process the refund, “accidentally” refunds too much, and asks you to send the difference back.",
+      "The charge usually never happened. The phone number is the scam."
+    ],
+    "flags": [
+      "A charge you don't recognize, with a phone number to call to cancel it.",
+      "It's sent from a free email address, or to “undisclosed recipients”.",
+      "A “refund” that requires remote access to your computer.",
+      "Being told you were refunded too much and must send money back."
+    ],
+    "do": [
+      "Don't call the number in the email. Check your bank or card statement for the charge yourself.",
+      "If you have the subscription, sign in to it the way you normally would.",
+      "Delete the email."
+    ],
+    "keywords": [
+      "renewal",
+      "geek squad",
+      "subscription",
+      "antivirus",
+      "fake invoice"
+    ],
+    "sources": [
+      {
+        "title": "FTC: How to recognize a fake Geek Squad renewal scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2022/10/how-recognize-fake-geek-squad-renewal-scam"
+      },
+      {
+        "title": "FTC: Phishers send fake invoices",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2018/02/phishers-send-fake-invoices"
+      }
+    ]
+  },
+  {
+    "slug": "payment-method",
+    "name": "Gift card, crypto and Bitcoin ATM demands",
+    "title": "Gift card, crypto and Bitcoin ATM payment scams",
+    "description": "Anyone who insists you pay with gift cards, crypto, a Bitcoin ATM, a wire or cash is a scammer. Here's why the way they ask you to pay is the biggest tell.",
+    "short": "Whatever the story, they insist you pay with gift cards, crypto, a Bitcoin ATM, a wire transfer or cash.",
+    "how": [
+      "The story changes, but the ending doesn't. A government agent, a utility, a boss, a “bank investigator” or a new online friend tells you to buy gift cards and read them the numbers, feed cash into a Bitcoin ATM and scan their QR code, or wire money.",
+      "These methods are fast and very hard to reverse. That's why scammers insist on them, and why no legitimate business or agency demands them."
+    ],
+    "flags": [
+      "Any request to pay with gift cards, crypto, a Bitcoin ATM, a wire or cash.",
+      "Being told what to say if the cashier asks what the gift cards are for.",
+      "Being asked to read the gift card numbers aloud or send photos of them.",
+      "Staying on the phone with someone while you buy the cards or use the ATM."
+    ],
+    "do": [
+      "Stop. Only scammers ask for payment like this.",
+      "If you already paid, contact the gift card company or your bank right away and report it at ReportFraud.ftc.gov."
+    ],
+    "keywords": [
+      "gift card",
+      "bitcoin atm",
+      "crypto atm",
+      "cryptocurrency atm",
+      "wire transfer",
+      "how someone asks you to pay",
+      "bank transfer"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Avoiding and reporting gift card scams",
+        "url": "https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams"
+      },
+      {
+        "title": "FTC: The way to spot scams: how someone asks you to pay",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/07/way-spot-scams-how-someone-asks-you-pay"
+      },
+      {
+        "title": "FTC: Did someone send you to a Bitcoin ATM? It's a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2024/03/did-someone-send-you-bitcoin-atm-its-scam"
+      }
+    ]
+  },
+  {
+    "slug": "romance",
+    "name": "Romance scams",
+    "title": "Romance scams: how online relationships turn into requests for money",
+    "description": "An online match who can never meet, then a sudden need for money or an “investment tip”. How romance scams work, with examples.",
+    "short": "An online sweetheart you've never met in person needs money, or wants to teach you to invest.",
+    "how": [
+      "They find you on a dating app or social media and move the chat to a private messaging app. They're attentive and consistent for weeks. They can't video call or meet because they're overseas, on an oil rig or deployed. Then there's an emergency, a customs fee, a plane ticket, or a crypto opportunity they want to share.",
+      "AI now writes their messages around the clock and can fake photos and even short video calls."
+    ],
+    "flags": [
+      "They want to move to WhatsApp, Telegram or another private app quickly.",
+      "There's always a reason they can't meet or video chat properly.",
+      "Any request for money, gift cards or crypto, or an investing tip.",
+      "They ask you to keep the relationship secret."
+    ],
+    "do": [
+      "Never send money or crypto to someone you haven't met in person.",
+      "Search their photos with a reverse image search.",
+      "Talk to a friend or family member about the relationship."
+    ],
+    "keywords": [
+      "romance",
+      "dating",
+      "online relationship",
+      "sweetheart"
+    ],
+    "sources": [
+      {
+        "title": "FTC: What to know about romance scams",
+        "url": "https://consumer.ftc.gov/articles/what-know-about-romance-scams"
+      }
+    ]
+  },
+  {
+    "slug": "wrong-number",
+    "name": "“Wrong number” texts and crypto tips",
+    "title": "“Wrong number” texts that become crypto investment scams",
+    "description": "A friendly text meant for someone else turns into a friendship, then a can't-lose crypto platform. How these investment scams work.",
+    "short": "A friendly text “to the wrong number” turns into a friendship, then an investment tip.",
+    "how": [
+      "It starts with “Hi, is this Dr. Lee's office?” or “Are we still on for golf Saturday?”. When you say it's the wrong number, they apologize charmingly and keep chatting. Over days or weeks they become a friend, mention their success with crypto trading and show you a platform where your balance seems to grow. When you try to withdraw, there are fees and taxes to pay first, and then they disappear.",
+      "The trading site is fake. The profits on screen were never real."
+    ],
+    "flags": [
+      "A stranger who keeps chatting after a “wrong number” text.",
+      "Talk of a wealthy relative, a mentor or a trading secret.",
+      "A website or app you've never heard of where your “profits” grow fast.",
+      "Fees or taxes you must pay before you can withdraw."
+    ],
+    "do": [
+      "Don't reply to wrong-number texts from strangers. Delete and block them.",
+      "Anyone promising guaranteed returns from crypto is a scammer."
+    ],
+    "keywords": [
+      "wrong number",
+      "investment",
+      "trading",
+      "crypto",
+      "cryptocurrency",
+      "pig butchering",
+      "learn to trade"
+    ],
+    "sources": [
+      {
+        "title": "FTC: What to know about cryptocurrency and scams",
+        "url": "https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams"
+      },
+      {
+        "title": "FTC: Investment scams",
+        "url": "https://consumer.ftc.gov/articles/investment-scams"
+      }
+    ]
+  },
+  {
+    "slug": "job-task",
+    "name": "Job offer texts and task scams",
+    "title": "Job offer texts and task scams: paid to like videos?",
+    "description": "A recruiter texts a remote job paying $300 a day for rating products or liking videos. Then you have to deposit money. How task scams work.",
+    "short": "An unsolicited job offer for easy online “tasks” that ends with you depositing money to unlock your earnings.",
+    "how": [
+      "A “recruiter” texts or messages you about flexible remote work: rate products, like videos or “optimize apps”, for high pay. The work happens in an app or website that shows your earnings piling up. Soon you need to deposit your own money, often in crypto, to unlock the next set of tasks or to withdraw.",
+      "Real employers don't hire by unsolicited text, and they never ask you to pay to get paid."
+    ],
+    "flags": [
+      "A job offer you didn't apply for, by text, WhatsApp or Telegram.",
+      "High pay for simple tasks like liking, rating or reviewing.",
+      "You must pay or deposit money (often crypto) to earn or withdraw.",
+      "No real interview, and no company you can verify."
+    ],
+    "do": [
+      "Ignore unsolicited job texts.",
+      "Never pay to get a job or to receive your earnings.",
+      "Look up the company yourself and apply only through its own careers page."
+    ],
+    "keywords": [
+      "job",
+      "task scam",
+      "recruiter",
+      "employment",
+      "work from home",
+      "hiring",
+      "mystery shop",
+      "secret shopper",
+      "franchis",
+      "business opportunit"
+    ],
+    "sources": [
+      {
+        "title": "FTC: How to spot and avoid task scams",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams"
+      },
+      {
+        "title": "FTC: That job offer text is probably a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam"
+      },
+      {
+        "title": "FTC: Job scams",
+        "url": "https://consumer.ftc.gov/articles/job-scams"
+      }
+    ]
+  },
+  {
+    "slug": "overpayment",
+    "name": "Fake checks and overpayments",
+    "title": "Fake check and overpayment scams when you sell online",
+    "description": "A buyer sends a check for more than your asking price and asks you to send back the difference. The check will bounce. How the scam works.",
+    "short": "A buyer or employer “accidentally” pays too much and asks you to send the difference back.",
+    "how": [
+      "You're selling something online, or you just got a job or prize. A check or transfer arrives for more than you're owed, with a story about a mix-up or a mover's fee. You're asked to deposit it and send the difference back by gift card, wire or payment app.",
+      "The check looks real and the bank makes the money available within days, but it can bounce weeks later. You owe the bank everything you withdrew."
+    ],
+    "flags": [
+      "A payment for more than the agreed amount.",
+      "A request to send the extra back, or to pay a third party like a “mover”.",
+      "Pressure to act before the check has fully cleared.",
+      "A buyer who wants to pay outside the marketplace's own checkout."
+    ],
+    "do": [
+      "Never send money back to someone who overpaid you.",
+      "Use the marketplace's own payment system, and let the full payment clear first.",
+      "A check “clearing” doesn't mean it's good. Ask your bank."
+    ],
+    "keywords": [
+      "fake check",
+      "overpay",
+      "selling online",
+      "selling stuff online",
+      "cashier's check"
+    ],
+    "sources": [
+      {
+        "title": "FTC: How to spot, avoid, and report fake check scams",
+        "url": "https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams"
+      },
+      {
+        "title": "FTC: Selling stuff online? Here's how to avoid a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2022/07/selling-stuff-online-heres-how-avoid-scam"
+      }
+    ]
+  },
+  {
+    "slug": "payment-app",
+    "name": "Payment app scams",
+    "title": "Payment app scams on Venmo, Cash App and Zelle",
+    "description": "“I sent you money by mistake, please send it back.” How scammers use payment apps, and how to use them safely.",
+    "short": "A stranger “accidentally” sends you money and asks for it back, or a seller insists on a payment app.",
+    "how": [
+      "Money arrives in your payment app from someone you don't know, followed by a polite message asking you to send it back. The original payment was made with a stolen card and will be reversed, so the money you sent “back” comes out of your own pocket.",
+      "Payment apps work like handing over cash: once you send money to a stranger, it's usually gone."
+    ],
+    "flags": [
+      "A stranger says they sent you money by mistake and asks you to return it.",
+      "A seller who only accepts payment-app transfers to an individual.",
+      "Messages about a payment that you don't see in the app itself."
+    ],
+    "do": [
+      "Don't send money back yourself. Ask the stranger to contact the app's support to reverse it.",
+      "Only use payment apps with people you know.",
+      "Check your balance in the app itself, not through a message's link."
+    ],
+    "keywords": [
+      "payment app",
+      "venmo",
+      "cash app",
+      "cashapp",
+      "zelle",
+      "paypal"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Mobile payment apps: how to avoid a scam when you use one",
+        "url": "https://consumer.ftc.gov/articles/mobile-payment-apps-how-avoid-scam-when-you-use-one"
+      },
+      {
+        "title": "FTC: Do you use payment apps like Venmo, CashApp, or Zelle? Read this",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2023/08/do-you-use-payment-apps-venmo-cashapp-or-zelle-read"
+      }
+    ]
+  },
+  {
+    "slug": "verification-code",
+    "name": "Verification code scams",
+    "title": "Verification code scams: “just read me the code”",
+    "description": "Someone asks for the code that was just texted to you. With it, they take over your account. Why you should never share a verification code.",
+    "short": "Someone asks you to share a one-time code that was just sent to you.",
+    "how": [
+      "The code that arrives by text or email is the key to your account. Scammers trigger a sign-in or password reset on your account, then contact you with a reason to read the code back: they're your bank's fraud team, a buyer who wants to “verify you're real”, or a friend whose account is locked.",
+      "Sometimes the “friend” is a hacked account messaging everyone on their contact list."
+    ],
+    "flags": [
+      "Anyone asking for a code, however good the reason.",
+      "A code arriving for a sign-in or reset you didn't start.",
+      "A friend's message that sounds a little off and asks for a code or a favor."
+    ],
+    "do": [
+      "Never share a verification code with anyone who contacts you. Companies don't ask for them.",
+      "If a code arrives unexpectedly, change that account's password yourself.",
+      "Call your friend on a number you know before helping with their “locked” account."
+    ],
+    "keywords": [
+      "verification code",
+      "one-time code",
+      "two-factor",
+      "passcode",
+      "google voice",
+      "account takeover"
+    ],
+    "sources": [
+      {
+        "title": "FTC: What's a verification code and why would someone ask me for it?",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2024/03/whats-verification-code-why-would-someone-ask-me-it"
+      },
+      {
+        "title": "FTC: The Google Voice scam: how this verification code scam works",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2021/10/google-voice-scam-how-verification-code-scam-works-how-avoid-it"
+      }
+    ]
+  },
+  {
+    "slug": "account-phishing",
+    "name": "Account alert phishing",
+    "title": "Phishing emails: fake account alerts, locked accounts and expiring passwords",
+    "description": "“Your account has been suspended”, “unusual sign-in”, “your mailbox is full”. How phishing emails steal passwords, and how to check safely.",
+    "short": "An email or text says your account is locked, suspended or about to expire, and links to a sign-in page.",
+    "how": [
+      "The message copies the look of a company you use: email, streaming, cloud storage, work software. Something is wrong with your account and you must sign in through the link to fix it. The sign-in page is a copy that captures your password, and sometimes your verification code too.",
+      "AI writes these in perfect, personalized language now, so good grammar is no longer a sign that a message is safe."
+    ],
+    "flags": [
+      "Pressure: your account will be closed, deleted or suspended soon.",
+      "A link to sign in, where the web address isn't the company's real site.",
+      "A greeting that's generic or uses only part of your email address.",
+      "Requests to update payment details or “verify” your identity."
+    ],
+    "do": [
+      "Don't use the link. Open the app or type the website address yourself and check for alerts there.",
+      "Turn on two-factor authentication for important accounts.",
+      "Report it with your email's “Report phishing” button."
+    ],
+    "keywords": [
+      "phishing",
+      "password",
+      "suspended",
+      "sign-in",
+      "log in to your account",
+      "locked account",
+      "account is locked",
+      "hacked"
+    ],
+    "sources": [
+      {
+        "title": "FTC: How to recognize and avoid phishing scams",
+        "url": "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams"
+      },
+      {
+        "title": "CISA: Recognize and report phishing",
+        "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+      }
+    ]
+  },
+  {
+    "slug": "qr-code",
+    "name": "QR code scams",
+    "title": "QR code scams on parking meters, packages and letters",
+    "description": "A sticker on a parking meter, a card in a package you didn't order: QR codes can lead to fake payment pages. How to scan safely.",
+    "short": "A QR code on a parking meter, flyer, letter or unexpected package leads to a fake payment or login page.",
+    "how": [
+      "Scammers paste their own QR code over the real one on parking meters and pay stations, or put one in a package or letter you didn't expect. Scanning it opens a page that asks for your card details or sign-in, or installs malware.",
+      "A QR code is just a link you can't read. Treat it like a link from a stranger."
+    ],
+    "flags": [
+      "A sticker placed over another code, or a code that looks stuck on.",
+      "A QR code in a package, letter or flyer you didn't expect.",
+      "The web address shown when you scan isn't the official site.",
+      "The page asks for card details or a password right away."
+    ],
+    "do": [
+      "Before opening a scanned link, read the address your phone shows.",
+      "Pay for parking through the city's official app or the meter itself.",
+      "Don't scan codes from unexpected packages or messages."
+    ],
+    "keywords": [
+      "qr code",
+      "qr codes",
+      "brushing",
+      "unexpected package"
+    ],
+    "sources": [
+      {
+        "title": "FTC: See a QR code parked somewhere? Don't scan it…yet!",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/see-qr-code-parked-somewhere-dont-scan-ityet"
+      },
+      {
+        "title": "FTC: Scammers hide harmful links in QR codes to steal your information",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2023/12/scammers-hide-harmful-links-qr-codes-steal-your-information"
+      },
+      {
+        "title": "FTC: That unexpected package you got could be a brushing scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/unexpected-package-you-got-could-be-brushing-scam"
+      }
+    ]
+  },
+  {
+    "slug": "prize",
+    "name": "Prize and sweepstakes scams",
+    "title": "Prize, sweepstakes and lottery scams: “you've won”",
+    "description": "You won a car, a cash prize or a lottery you never entered, and just need to pay a fee. Real prizes are free. Examples and tells.",
+    "short": "You've won a prize, but you have to pay taxes, fees or shipping before you can collect it.",
+    "how": [
+      "A call, letter, text or social media message says you've won a big prize or a lottery, sometimes one you don't remember entering. To claim it you must pay processing fees, taxes or insurance first, often by gift card or wire. The fees keep coming, and the prize never does.",
+      "Legitimate sweepstakes never ask winners to pay to collect."
+    ],
+    "flags": [
+      "You have to pay anything to get a prize.",
+      "You “won” a contest or foreign lottery you never entered.",
+      "Pressure to claim it right away, and to keep it quiet.",
+      "Payment by gift card, wire, crypto or cash."
+    ],
+    "do": [
+      "Never pay to collect a prize.",
+      "Hang up, delete the message, or throw out the letter."
+    ],
+    "keywords": [
+      "prize",
+      "sweepstakes",
+      "lottery",
+      "you've won",
+      "you won",
+      "giveaway",
+      "unclaimed"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Fake prize, sweepstakes, and lottery scams",
+        "url": "https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams"
+      },
+      {
+        "title": "FTC: Asked to pay to claim a million-dollar prize? Don't bet on it",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/asked-pay-claim-million-dollar-prize-dont-bet-it"
+      }
+    ]
+  },
+  {
+    "slug": "utility",
+    "name": "Utility shutoff threats",
+    "title": "Utility scams: “your power will be shut off in 30 minutes”",
+    "description": "A caller says your electricity or water will be cut off today unless you pay now. How utility impostor scams work.",
+    "short": "A caller or text from your “utility company” says service will be cut off within the hour unless you pay now.",
+    "how": [
+      "The caller sounds professional and knows your address. You're behind on your bill, they say, and a crew is on its way to disconnect you unless you pay immediately, by prepaid card, payment app or crypto. Businesses get the same calls during busy hours.",
+      "Utilities send written notices before disconnecting service, and they take payment through their regular billing channels."
+    ],
+    "flags": [
+      "A shutoff threat within the hour, with no written notice before it.",
+      "Payment by prepaid card, payment app, gift card or crypto.",
+      "A caller who won't let you hang up and call back."
+    ],
+    "do": [
+      "Hang up and call the number on your actual bill or the utility's official website.",
+      "Check your balance in your account or on your last statement."
+    ],
+    "keywords": [
+      "utility",
+      "utilities",
+      "electric",
+      "power company",
+      "water bill",
+      "shut off",
+      "disconnect",
+      "bill pay"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Scammers pretend to be your utility company",
+        "url": "https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company"
+      }
+    ]
+  },
+  {
+    "slug": "fake-store",
+    "name": "Fake stores and too-good deals",
+    "title": "Fake online stores and social media ad scams",
+    "description": "Holiday deals at 80% off, brand-new stores on social media, puppies for a deposit. How to spot a fake store before you pay.",
+    "short": "An ad or website with prices that are too good to be true, from a store you've never heard of.",
+    "how": [
+      "Scam stores copy real brands' photos, run ads on social media and offer huge discounts, countdown timers and “only 3 left”. You pay, and get nothing, a cheap knockoff, or a stolen card. Pet scams work the same way: an adorable puppy, a deposit, then surprise fees for shipping and insurance.",
+      "AI makes it cheap to create a convincing store, product photos and fake reviews in minutes."
+    ],
+    "flags": [
+      "Prices far below everywhere else, especially on popular items.",
+      "A new store with no history, or a web address that's slightly off from a brand you know.",
+      "Payment only by wire, payment app, gift card or crypto.",
+      "Countdown timers and “last chance” pressure."
+    ],
+    "do": [
+      "Search the store's name with words like “scam” or “review” before buying.",
+      "Pay by credit card, which gives you the most protection if something goes wrong.",
+      "Type a retailer's address yourself instead of clicking an ad."
+    ],
+    "keywords": [
+      "online shopping",
+      "fake website",
+      "fake store",
+      "ads on social media",
+      "social media ads",
+      "pet scam",
+      "pets",
+      "puppy",
+      "dealership",
+      "spoofing",
+      "travel scam",
+      "farm equipment"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Online shopping",
+        "url": "https://consumer.ftc.gov/articles/online-shopping"
+      },
+      {
+        "title": "FTC: Are ads on social media vetted or checked for scams? Here's what to know",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/08/are-ads-social-media-vetted-or-checked-scams-heres-what-know"
+      },
+      {
+        "title": "FTC: Animal lovers: learn to spot and avoid this breed of pet scams",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams"
+      }
+    ]
+  },
+  {
+    "slug": "charity",
+    "name": "Fake charities",
+    "title": "Charity scams: fake fundraising after disasters and at the holidays",
+    "description": "After a disaster, and at the end of the year, fake charities ask for donations by text and phone. How to give safely.",
+    "short": "A fundraiser after a disaster or at the holidays, pressing you to give fast, by gift card, crypto or wire.",
+    "how": [
+      "Scammers set up charities with names that sound like real ones, and appear right after disasters and at year-end. They call, text and post with emotional stories and ask you to give right now. Some thank you for a donation you never made, to get you to pay a “pledge”.",
+      "Real charities welcome questions and will happily take a donation next week."
+    ],
+    "flags": [
+      "Pressure to donate immediately.",
+      "A request to pay by gift card, crypto, wire or cash.",
+      "Thanks for a pledge you don't remember making.",
+      "A name that's very close to a well-known charity's."
+    ],
+    "do": [
+      "Research the charity before you give, and donate through its own website.",
+      "Pay by credit card or check, and keep a record."
+    ],
+    "keywords": [
+      "charity",
+      "charities",
+      "donat",
+      "fundrais",
+      "disaster relief",
+      "hurricane relief",
+      "relief fund"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Before giving to a charity",
+        "url": "https://consumer.ftc.gov/articles/giving-charity"
+      },
+      {
+        "title": "FTC: Give to a charity, not a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2024/11/give-charity-not-scam"
+      }
+    ]
+  },
+  {
+    "slug": "boss-impostor",
+    "name": "Boss and vendor impostors at work",
+    "title": "Boss impostor and fake invoice scams at work (business email compromise)",
+    "description": "“Are you at your desk? I need a favor.” Fake messages from the boss, and vendors whose bank details suddenly change. How to stop them.",
+    "short": "A message from your “boss” or a known vendor asks for an urgent payment, gift cards or new bank details.",
+    "how": [
+      "The CEO, your manager or a long-time supplier emails or texts from a new address or number. They're in a meeting and need you to buy gift cards for clients, pay an urgent invoice, or update their bank account for the next payment. Some scammers now join video calls using AI deepfakes of executives.",
+      "The money goes to the scammer, and businesses rarely get it back."
+    ],
+    "flags": [
+      "A new email address or phone number for someone you know.",
+      "Urgency and secrecy: “I'm in a meeting”, “keep this between us”.",
+      "Gift cards for clients, or a change to a vendor's bank details.",
+      "Anything that skips your normal approval process."
+    ],
+    "do": [
+      "Verify by calling the person on a number you already have, not one in the message.",
+      "Follow your normal payment approval steps for every change, no exceptions."
+    ],
+    "keywords": [
+      "business email compromise",
+      "ceo",
+      "your boss",
+      "vendor",
+      "small business",
+      "invoice"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Run a small business? Pay your bills, not scammers",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/05/run-small-business-pay-your-bills-not-scammers"
+      },
+      {
+        "title": "FTC: Protecting small business from imposters",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2020/01/protecting-small-business-imposters"
+      },
+      {
+        "title": "CISA: Recognize and report phishing",
+        "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+      }
+    ]
+  },
+  {
+    "slug": "rental",
+    "name": "Rental listing scams",
+    "title": "Rental listing scams: fake listings that ask for a deposit",
+    "description": "A great apartment at a low rent, an owner who's out of the country, and a deposit before you can see it. How rental scams work.",
+    "short": "A listing with low rent and an owner who can't show it, asking for a deposit before you see the place.",
+    "how": [
+      "Scammers copy real listings, lower the rent, and post them as their own. The “owner” is traveling or overseas and can't show the place, but you can secure it now with a deposit or first month's rent by wire, payment app or gift card.",
+      "You find out when you arrive with your boxes and someone else lives there, or the real owner has never heard of it."
+    ],
+    "flags": [
+      "Rent well below similar places nearby.",
+      "The owner can't meet or show the place.",
+      "Pressure to pay a deposit before you've seen it or signed a lease.",
+      "Payment by wire, payment app, gift card or crypto."
+    ],
+    "do": [
+      "See the place in person, or have someone you trust do it, before paying anything.",
+      "Search the address and the listing photos to find copies."
+    ],
+    "keywords": [
+      "rental",
+      "apartment",
+      "landlord",
+      "lease",
+      "listing"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Rental listing scams",
+        "url": "https://consumer.ftc.gov/articles/rental-listing-scams"
+      }
+    ]
+  },
+  {
+    "slug": "health-insurance",
+    "name": "Health insurance and Medicare scams",
+    "title": "Health insurance, Open Enrollment and Medicare scams",
+    "description": "Calls offering cheap health plans, “free” Medicare benefits or new cards, timed to Open Enrollment. How to spot them.",
+    "short": "A call or ad offering cheap health coverage or Medicare benefits, asking for your Medicare number or a fee.",
+    "how": [
+      "During Open Enrollment, scammers pose as government agents or insurance navigators. They offer plans that seem cheap, “free” braces or test kits, or a new Medicare card, and ask for your Medicare or Social Security number, or an enrollment fee.",
+      "Some sell discount plans that aren't insurance at all. Your Medicare number can be used to bill for things you never got."
+    ],
+    "flags": [
+      "An unexpected call about your Medicare or health coverage.",
+      "A request for your Medicare or Social Security number to “verify” you.",
+      "Offers that end today, or plans that sound too cheap.",
+      "A fee to get a new card or to enroll."
+    ],
+    "do": [
+      "Use the official marketplace website or the number on your Medicare card.",
+      "Never give your Medicare number to someone who called you.",
+      "Treat your Medicare number like a credit card."
+    ],
+    "keywords": [
+      "health insurance",
+      "medicare",
+      "open enrollment",
+      "medicaid",
+      "health plan",
+      "medical discount"
+    ],
+    "sources": [
+      {
+        "title": "FTC: What to know ahead of Open Enrollment to avoid health insurance scams",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/what-know-ahead-open-enrollment-avoid-health-insurance-scams"
+      },
+      {
+        "title": "FTC: Spot health insurance scams",
+        "url": "https://consumer.ftc.gov/articles/spot-health-insurance-scams"
+      },
+      {
+        "title": "FTC: Your Medicare number is valuable. Protect it",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2024/06/your-medicare-number-valuable-protect-it"
+      }
+    ]
+  },
+  {
+    "slug": "refund-recovery",
+    "name": "Refund and recovery scams",
+    "title": "Refund and recovery scams: “we can get your money back”",
+    "description": "After a scam, someone offers to recover your money for a fee. They're scammers too. How recovery scams target victims twice.",
+    "short": "After you've lost money, someone offers to recover it, for an upfront fee.",
+    "how": [
+      "Scammers sell lists of people who've already been scammed. A “lawyer”, a “recovery firm” or even a fake government agency contacts you: they've found your money and can get it back for a fee or a “tax”. Some offer refunds for purchases you made, and ask for your card or bank details to send it.",
+      "Government agencies and legitimate refund programs never charge a fee to return your money."
+    ],
+    "flags": [
+      "Someone contacts you offering to recover money you lost.",
+      "An upfront fee, tax or “processing charge” to get money back.",
+      "They ask for bank or card details to send a refund."
+    ],
+    "do": [
+      "Never pay to get money back.",
+      "Check refund programs on the agency's official .gov website."
+    ],
+    "keywords": [
+      "refund",
+      "recovery",
+      "recover",
+      "get your money back",
+      "lost money to a scam",
+      "debt relief",
+      "tax debt"
+    ],
+    "sources": [
+      {
+        "title": "FTC: Refund and recovery scams",
+        "url": "https://consumer.ftc.gov/articles/refund-and-recovery-scams"
+      },
+      {
+        "title": "FTC: Scammy texts offering “refunds” for Amazon purchases",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/07/scammy-texts-offering-refunds-amazon-purchases"
+      }
+    ]
+  }
+]

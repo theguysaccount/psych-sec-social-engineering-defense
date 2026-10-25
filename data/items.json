@@ -1,0 +1,937 @@
+[
+  {
+    "id": "toll-1", "type": "toll-text", "verdict": "scam", "channel": "sms",
+    "context": "You drove through a toll plaza last month.",
+    "from": "+1 (318) 555-0143",
+    "body": "Turnpike Toll Services: Our records show an unpaid toll balance of $6.89 for your vehicle. To avoid a $50.00 late fee and possible suspension of your vehicle registration, settle your balance within 12 hours: [[turnpike-tolls.com-paycenter.top/settle]]\n\n(Reply Y, then reopen this message to activate the link.)",
+    "flags": [
+      {"text": "A deadline of hours, and a big late fee over a few dollars.", "quote": "within 12 hours"},
+      {"text": "The real website is the part just before the first “/”: com-paycenter.top. That isn't a toll agency.", "quote": "turnpike-tolls.com-paycenter.top/settle"},
+      {"text": "Asking you to reply so your phone switches the link on is a trick to get past your phone's spam protection.", "quote": "Reply Y, then reopen this message"},
+      {"text": "Threatening your registration over $6.89.", "quote": "suspension of your vehicle registration"}
+    ],
+    "why": "Toll agencies don't text demands with a deadline of hours, and that link isn't theirs.",
+    "do": "Don't reply or tap. Check your toll account on the official website you type yourself, then forward the text to 7726."
+  },
+  {
+    "id": "toll-2", "type": "toll-text", "verdict": "scam", "channel": "sms",
+    "context": "You don't have a toll pass, but you sometimes drive on toll roads.",
+    "from": "billing.notice@tollzone-us.com",
+    "body": "FINAL NOTICE: Toll violation #TV-55817. Amount due: $11.42. Pay today to avoid a DMV referral and additional penalties. Pay securely: [[tollzone-us.com/violation]]",
+    "flags": [
+      {"text": "A “text” sent from an email address is a common way to send scam texts in bulk.", "quote": "billing.notice@tollzone-us.com"},
+      {"text": "“Final notice” for a bill you've never seen before.", "quote": "FINAL NOTICE"},
+      {"text": "Threats of a DMV referral to make you pay without thinking.", "quote": "avoid a DMV referral"},
+      {"text": "“Pay securely” is just a phrase. The site isn't your state's toll authority.", "quote": "tollzone-us.com/violation"}
+    ],
+    "why": "Real toll bills arrive by mail or in an account you set up. This one comes from an email address and links to a look-alike site.",
+    "do": "Delete it. If you think you might owe a toll, look up your state's toll authority yourself and check there."
+  },
+  {
+    "id": "toll-legit", "type": "toll-text", "verdict": "legit", "channel": "sms",
+    "context": "You have a toll pass and turned on text alerts when you opened the account.",
+    "from": "TollPass (saved contact)",
+    "body": "TollPass: Your account was automatically replenished with $25.00 from the card ending in 4417. Current balance: $31.60. No action is needed. To manage alerts, sign in to your account. Reply STOP to opt out.",
+    "flags": [
+      {"text": "It comes from a contact you saved, for alerts you turned on.", "quote": "TollPass (saved contact)"},
+      {"text": "It asks for nothing: no link, no payment, no deadline.", "quote": "No action is needed."},
+      {"text": "It tells you to sign in yourself rather than tap a link.", "quote": "sign in to your account"}
+    ],
+    "why": "This is a routine receipt you signed up for. It doesn't ask you to tap, pay or reply.",
+    "do": "Nothing to do. To check your balance, open the toll app or type the website yourself."
+  },
+  {
+    "id": "pkg-1", "type": "package-delivery", "verdict": "scam", "channel": "sms",
+    "context": "It's December and you're expecting a few deliveries.",
+    "from": "+1 (786) 555-0181",
+    "body": "USPS: Your package is on hold at our warehouse due to an incomplete address. Please confirm your address within 24 hours or it will be returned to the sender:\n[[usps.com-trackhelp.vip/us]]\n\nThe USPS team wishes you a great day.",
+    "flags": [
+      {"text": "Read the address from the right: the real site is com-trackhelp.vip. “usps.com-” is just decoration.", "quote": "usps.com-trackhelp.vip/us"},
+      {"text": "A 24-hour deadline, or your package goes back.", "quote": "within 24 hours"},
+      {"text": "“Incomplete address” is the most common story in fake delivery texts.", "quote": "incomplete address"},
+      {"text": "It came from a random phone number, and you never signed up for USPS texts.", "quote": "+1 (786) 555-0181"}
+    ],
+    "why": "Unless you signed up for USPS text updates with a tracking number, USPS won't text you about a package. And its website is usps.com, not com-trackhelp.vip.",
+    "do": "Don't tap. Check tracking in the store's app or on usps.com typed yourself. Forward the text to 7726."
+  },
+  {
+    "id": "pkg-2", "type": "package-delivery", "verdict": "scam", "channel": "email",
+    "context": "You ordered a coat online last week.",
+    "from": "SwiftParcel Delivery <notify@swiftparcel-redeliver.info>",
+    "subject": "Delivery attempt failed - action required",
+    "body": "Hello,\n\nWe attempted to deliver your parcel today but no one was available to sign. A redelivery fee of $1.99 applies to reschedule.\n\nTracking: SP-88310-4721\nStatus: Held at local depot\n\n{{Reschedule delivery}}\n\nParcels not rescheduled within 48 hours are returned to sender.\n\nSwiftParcel Customer Care",
+    "flags": [
+      {"text": "A tiny fee is the bait. What they want is your card number.", "quote": "A redelivery fee of $1.99"},
+      {"text": "A generic greeting: they don't know your name or what you ordered.", "quote": "Hello,"},
+      {"text": "The sender's domain is a look-alike, not the store or a carrier you know.", "quote": "swiftparcel-redeliver.info"},
+      {"text": "A deadline to make you hurry.", "quote": "within 48 hours"}
+    ],
+    "why": "Couriers don't email surprise fees to redeliver a package. It doesn't mention your coat, the store, or your name.",
+    "do": "Check your order in the store's own app or account, where the real tracking number is."
+  },
+  {
+    "id": "pkg-legit", "type": "package-delivery", "verdict": "legit", "channel": "sms",
+    "context": "Yesterday you ordered a floor lamp from Finch & Marlow and ticked “text me shipping updates” at checkout.",
+    "from": "Finch & Marlow (saved contact)",
+    "body": "Finch & Marlow: Good news, Dana! Your order #FM-204817 (Arc floor lamp) has shipped and should arrive Thursday. Track it in the Finch & Marlow app. Reply HELP for help, STOP to end texts.",
+    "flags": [
+      {"text": "It matches an order you actually placed, down to the item.", "quote": "Arc floor lamp"},
+      {"text": "No fee, no address “problem”, no link.", "quote": "should arrive Thursday"},
+      {"text": "It points you to the app you already use.", "quote": "Track it in the Finch & Marlow app"}
+    ],
+    "why": "It matches an order you placed and opted in to, names the item, and asks for nothing.",
+    "do": "Fine to read. To track it, open the app yourself; you never need to tap a link in a text."
+  },
+  {
+    "id": "bank-1", "type": "bank-impostor", "verdict": "scam", "channel": "call",
+    "context": "A minute ago a text asked whether you'd spent $1,280 at an electronics store. You replied NO. Now your phone rings.",
+    "from": "HARBORLINE BANK · +1 (800) 555-0136",
+    "body": "Caller: Hi, this is Mark from the Harborline fraud prevention team. Thanks for replying to our alert. We've blocked that $1,280 charge.\n\nCaller: To finish securing your account, I'm sending a verification code to your phone now. Can you read it back to me so I can confirm you're the account holder?\n\nCaller: Please don't hang up. If we lose the connection, the fraud case closes and the charge goes through.",
+    "flags": [
+      {"text": "Asking you to read back a code. The code is what they need to sign in as you.", "quote": "Can you read it back to me"},
+      {"text": "Pressure to stay on the line so you can't call your bank yourself.", "quote": "Please don't hang up"},
+      {"text": "Caller ID can be faked to show your bank's name.", "quote": "HARBORLINE BANK"},
+      {"text": "The text first, then the call: your “NO” told them the number is live and you're worried.", "quote": "Thanks for replying to our alert"}
+    ],
+    "why": "Your bank will never call and ask you to read back a code it sent you.",
+    "do": "Hang up and call the number on the back of your card. Never share a code with a caller."
+  },
+  {
+    "id": "bank-2", "type": "bank-impostor", "verdict": "scam", "channel": "call",
+    "context": "Your phone rings. The caller ID shows your credit union's name.",
+    "from": "CEDAR RIDGE CU · +1 (888) 555-0164",
+    "body": "Caller: This is the fraud department at Cedar Ridge Credit Union. We've found that someone at your branch has been taking money from accounts, including yours. We're working with federal investigators.\n\nCaller: To protect your savings, we need you to move them to a secure holding account that only you can access. I'll give you the account number.\n\nCaller: Please don't discuss this with branch staff. We don't know who's involved yet.",
+    "flags": [
+      {"text": "Moving your money to “protect” it. The “secure account” belongs to the scammer.", "quote": "move them to a secure holding account"},
+      {"text": "Being told not to talk to the people who could stop it.", "quote": "don't discuss this with branch staff"},
+      {"text": "“Federal investigators” are there to make it feel official and secret.", "quote": "federal investigators"}
+    ],
+    "why": "No bank or credit union asks you to move your money to keep it safe.",
+    "do": "Hang up. Call the number on your card or statement, or walk into a branch and tell them."
+  },
+  {
+    "id": "bank-legit", "type": "bank-impostor", "verdict": "legit", "channel": "sms",
+    "context": "Five minutes ago you bought a $480 TV at Brightway Electronics with your Harborline card.",
+    "from": "Harborline Bank (saved contact)",
+    "body": "Harborline Bank Fraud Alert: Did you attempt a $480.19 purchase at Brightway Electronics with card ending 3301? Reply YES or NO. We will never ask for your PIN, password or a one-time code by text or phone.",
+    "flags": [
+      {"text": "It matches a purchase you just made.", "quote": "$480.19 purchase at Brightway Electronics"},
+      {"text": "It asks only YES or NO, with no link.", "quote": "Reply YES or NO."},
+      {"text": "It reminds you it will never ask for codes.", "quote": "We will never ask for your PIN, password or a one-time code"}
+    ],
+    "why": "Banks do send alerts like this. It matches what you just did, asks only YES or NO, and has no link.",
+    "do": "Replying YES is fine. If anyone then calls asking for a code or to move money, hang up and call the number on your card."
+  },
+  {
+    "id": "gov-1", "type": "government-impostor", "verdict": "scam", "channel": "call",
+    "context": "Your phone rings in the middle of the afternoon.",
+    "from": "Unknown caller · +1 (202) 555-0198",
+    "body": "Caller: Good afternoon. This is Agent Daniel Ross with the Federal Trade Commission, badge number 4471-9. A phone registered under your name is being used to commit fraud overseas.\n\nCaller: Unless you cooperate with our investigation today, your phone number will be deactivated within two hours.\n\nCaller: I'm transferring you to a senior investigator who will verify your identity. Please have your Social Security number and bank information ready.",
+    "flags": [
+      {"text": "A badge number read out loud is a prop. Anyone can make one up.", "quote": "badge number 4471-9"},
+      {"text": "A threat with a two-hour deadline.", "quote": "your phone number will be deactivated within two hours"},
+      {"text": "They want your Social Security number and bank details.", "quote": "Please have your Social Security number and bank information ready"}
+    ],
+    "why": "The FTC doesn't call people to threaten to cut off their phone numbers. The FTC warned about this exact script in October 2026.",
+    "do": "Hang up. Report it at ReportFraud.ftc.gov."
+  },
+  {
+    "id": "gov-2", "type": "government-impostor", "verdict": "scam", "channel": "voicemail",
+    "context": "You find this voicemail when you check your phone.",
+    "from": "Voicemail · +1 (571) 555-0127",
+    "body": "This is an urgent message from the Social Security Administration. Your Social Security number has been suspended due to suspicious activity in Texas. To avoid legal action and the freezing of your bank accounts, call us back immediately at 571-555-0127. This is your final notice.",
+    "flags": [
+      {"text": "Social Security numbers can't be suspended. Ever.", "quote": "Your Social Security number has been suspended"},
+      {"text": "Threats of legal action and frozen accounts.", "quote": "To avoid legal action and the freezing of your bank accounts"},
+      {"text": "A callback number in the message itself. Real agencies' numbers are on their .gov sites.", "quote": "call us back immediately at 571-555-0127"}
+    ],
+    "why": "Your Social Security number can't be suspended, and Social Security doesn't leave threatening voicemails.",
+    "do": "Delete it. If you're worried, call Social Security on the number listed at ssa.gov."
+  },
+  {
+    "id": "gov-3", "type": "government-impostor", "verdict": "scam", "channel": "sms",
+    "context": "You filed your taxes months ago.",
+    "from": "+1 (929) 555-0150",
+    "body": "IRS Notice: You are eligible for a tax refund of $1,286.40 from an overpayment. To receive your refund, please complete identity verification within 48 hours: [[irs.gov-refundclaim.cfd/verify]]",
+    "flags": [
+      {"text": "The IRS doesn't start contact by text to ask for personal or financial information.", "quote": "IRS Notice"},
+      {"text": "The real site here is gov-refundclaim.cfd. “irs.gov-” is decoration.", "quote": "irs.gov-refundclaim.cfd/verify"},
+      {"text": "Money you didn't expect, plus a deadline.", "quote": "within 48 hours"}
+    ],
+    "why": "The IRS doesn't text you about refunds, and the link isn't irs.gov.",
+    "do": "Delete it. Check your refund status on irs.gov, typed yourself."
+  },
+  {
+    "id": "gov-legit", "type": "government-impostor", "verdict": "legit", "channel": "letter",
+    "context": "You owe $212 from last year's taxes and missed the payment deadline. A letter arrives in the mail.",
+    "from": "Internal Revenue Service · Notice CP14 (mailed)",
+    "body": "Notice CP14: Balance due\n\nOur records show you have unpaid taxes of $212.37 for the tax year shown above. If you already paid, please disregard this notice.\n\nPay online at [[irs.gov/payments]] or mail a check payable to “United States Treasury” with the payment stub below. If you can't pay the full amount, you can ask about a payment plan.",
+    "flags": [
+      {"text": "It matches a balance you know you owe.", "quote": "unpaid taxes of $212.37"},
+      {"text": "Payment goes to irs.gov or a check to the U.S. Treasury, never gift cards or crypto.", "quote": "payable to “United States Treasury”"},
+      {"text": "No threats, and it even allows that you may have paid already.", "quote": "If you already paid, please disregard this notice."}
+    ],
+    "why": "The IRS usually contacts people by mail first. This matches a real balance and sends you to irs.gov or a check to the U.S. Treasury.",
+    "do": "Pay through irs.gov typed yourself. If in doubt, call the IRS at the number on irs.gov, not one in a letter you're unsure of."
+  },
+  {
+    "id": "jury-1", "type": "jury-duty", "verdict": "scam", "channel": "call",
+    "context": "Your phone rings at work.",
+    "from": "+1 (614) 555-0177 · “County Sheriff's Office”",
+    "body": "Caller: This is Sergeant Mike Torres with the County Sheriff's Office, civil process division. Our records show you failed to appear for jury duty, and a bench warrant has been issued for your arrest.\n\nCaller: You can resolve this today without being taken into custody by posting a $1,500 bond. You can pay at any Bitcoin ATM, and I'll stay on the line with you while you do it.\n\nCaller: If you hang up, the warrant will be executed.",
+    "flags": [
+      {"text": "A threat of arrest unless you pay today.", "quote": "a bench warrant has been issued for your arrest"},
+      {"text": "No court takes a “bond” through a Bitcoin ATM.", "quote": "You can pay at any Bitcoin ATM"},
+      {"text": "Staying on the line keeps you from checking with anyone.", "quote": "I'll stay on the line with you"},
+      {"text": "Pressure not to hang up.", "quote": "If you hang up, the warrant will be executed."}
+    ],
+    "why": "Courts don't call to collect fines for missed jury duty, and never by Bitcoin ATM.",
+    "do": "Hang up. Call your local court clerk using the number on the court's official website."
+  },
+  {
+    "id": "jury-legit", "type": "jury-duty", "verdict": "legit", "channel": "letter",
+    "context": "An envelope from your county court arrives in the mail.",
+    "from": "County Superior Court, Jury Services (mailed summons)",
+    "body": "SUMMONS FOR JURY SERVICE\n\nYou have been selected for possible jury service. Please complete the enclosed juror questionnaire within 10 days and return it in the prepaid envelope, or respond online using the juror number printed above.\n\nThe evening before your service date, call the juror information line on this summons to find out whether you need to report.",
+    "flags": [
+      {"text": "It comes by mail, which is how courts summon jurors.", "quote": "SUMMONS FOR JURY SERVICE"},
+      {"text": "It asks for a questionnaire, not money.", "quote": "complete the enclosed juror questionnaire"},
+      {"text": "No threats and no payment of any kind.", "quote": "find out whether you need to report"}
+    ],
+    "why": "Real jury summonses come by mail, ask you to respond, and never ask for money.",
+    "do": "Respond as it says. If you're unsure it's real, call the court's number from its official website."
+  },
+  {
+    "id": "fam-1", "type": "family-emergency", "verdict": "scam", "channel": "call",
+    "context": "It's 11 p.m. Your phone shows an unknown number.",
+    "from": "Unknown number · +1 (305) 555-0155",
+    "body": "Caller: [sounds exactly like your grandson, crying] Grandma? It's me. I messed up. I was in a car accident and they're saying it was my fault. My nose is broken, that's why I sound weird.\n\nCaller: Please don't tell Mom and Dad, they'll kill me. There's a lawyer here, he can explain.\n\nSecond caller: Ma'am, I'm Richard Hale, the public defender assigned to your grandson. Bail is set at $8,500. Because of the circumstances, the court accepts cash only. A courier can come to your home tonight to collect it.",
+    "flags": [
+      {"text": "A request for secrecy. Real emergencies don't need to be hidden from parents.", "quote": "Please don't tell Mom and Dad"},
+      {"text": "A ready excuse for why the voice sounds off.", "quote": "that's why I sound weird"},
+      {"text": "A “lawyer” takes over and names a big cash amount.", "quote": "Bail is set at $8,500"},
+      {"text": "A courier collecting cash at your door is a scam every time.", "quote": "A courier can come to your home tonight"}
+    ],
+    "why": "Emergency, money and secrecy together is the pattern. AI can clone a voice from a few seconds of video, so a familiar voice isn't proof.",
+    "do": "Hang up and call your grandson, or his parents, on the numbers you already have."
+  },
+  {
+    "id": "fam-2", "type": "family-emergency", "verdict": "scam", "channel": "sms",
+    "context": "You have a daughter in college.",
+    "from": "+1 (747) 555-0134",
+    "body": "Hi Mom, it's me. I dropped my phone in the sink, this is my new number, you can delete the old one. Can you do me a quick favor? I have to pay a bill today but my bank app won't work on the new phone until tomorrow. It's $640, I'll pay you back first thing. Can I send you the account details?",
+    "flags": [
+      {"text": "“It's me” with no name. They're hoping you fill in the blank.", "quote": "Hi Mom, it's me."},
+      {"text": "A new number, and a request to delete the old one so you can't check.", "quote": "you can delete the old one"},
+      {"text": "An urgent payment to someone else's account.", "quote": "Can I send you the account details?"}
+    ],
+    "why": "A “new number” plus an urgent payment to an account you don't know is a well-known scam.",
+    "do": "Call your daughter on her old number, or ask something only she would know, before you send anything."
+  },
+  {
+    "id": "fam-legit", "type": "family-emergency", "verdict": "legit", "channel": "call",
+    "context": "Saturday afternoon. Your granddaughter Maya has soccer practice. An unknown number calls.",
+    "from": "Unknown number · +1 (503) 555-0109",
+    "body": "Caller: Hi Grandpa, it's Maya! My phone died so I'm borrowing Priya's. Practice ended early. Could you pick me up at the library instead of the field, around 4:30?\n\nCaller: If you want, text Mom, she knows where I am. See you soon!",
+    "flags": [
+      {"text": "It explains the new number in a way you can easily check.", "quote": "My phone died so I'm borrowing Priya's"},
+      {"text": "No money, no secrecy, just a pickup at a public place.", "quote": "Could you pick me up at the library"},
+      {"text": "She invites you to check with her mom: the opposite of “don't tell anyone”.", "quote": "If you want, text Mom"}
+    ],
+    "why": "Nothing here costs you money or asks for secrecy, and she invites you to check with her mom.",
+    "do": "A quick text to her mom, or your family code word, settles any doubt."
+  },
+  {
+    "id": "tech-1", "type": "tech-support", "verdict": "scam", "channel": "popup",
+    "context": "You're reading a recipe website when your screen fills with this, and an alarm starts beeping.",
+    "from": "Pop-up in your web browser",
+    "body": "⚠ SECURITY ALERT: YOUR COMPUTER HAS BEEN LOCKED\n\nError code #0x268d3. Suspicious activity has been detected. Your personal data, banking information and photos are at risk.\n\nDo NOT restart or shut down your computer. Doing so may cause permanent data loss.\n\nCall Technical Support immediately: +1 (877) 555-0189 (toll-free)\n\n{{Call support}} {{Cancel}}",
+    "flags": [
+      {"text": "A phone number in a security warning. Real ones never have one.", "quote": "Call Technical Support immediately"},
+      {"text": "Told not to restart, because restarting would make it disappear.", "quote": "Do NOT restart or shut down your computer"},
+      {"text": "Scare words about your banking and photos.", "quote": "Your personal data, banking information and photos are at risk."}
+    ],
+    "why": "This is a web page pretending to be a warning. Real security alerts never ask you to call a number.",
+    "do": "Don't call. Close the browser; if it won't close, restart the computer."
+  },
+  {
+    "id": "tech-2", "type": "tech-support", "verdict": "scam", "channel": "call",
+    "context": "Your home phone rings on a weekday morning.",
+    "from": "+1 (210) 555-0160",
+    "body": "Caller: Hello, I'm calling from the technical department of your internet provider. Our system shows your computer is sending error reports to our network. Hackers may already be inside.\n\nCaller: I can fix it right now. Please go to your computer and open a website I'll give you, so I can connect and remove the infection. It takes about ten minutes.\n\nCaller: There's a one-time $299 security fee, which you can pay at the end.",
+    "flags": [
+      {"text": "An unexpected call about a problem you didn't notice.", "quote": "your computer is sending error reports"},
+      {"text": "Asking to connect to your computer. Remote access lets them see everything, including your bank.", "quote": "so I can connect and remove the infection"},
+      {"text": "A fee for fixing a problem they invented.", "quote": "a one-time $299 security fee"}
+    ],
+    "why": "Internet providers don't call out of the blue to clean viruses off your computer.",
+    "do": "Hang up. If you're worried about your computer, take it to a repair shop you trust."
+  },
+  {
+    "id": "tech-legit", "type": "tech-support", "verdict": "legit", "channel": "popup",
+    "context": "You're using your laptop. A notification slides in from the corner of the screen, outside the web browser.",
+    "from": "System notification · Software Update",
+    "body": "Software Update\nAn update for your computer's operating system is available. It includes security fixes and takes about 20 minutes to install.\n\n{{Install tonight}} {{Details}}",
+    "flags": [
+      {"text": "It comes from the computer's own update tool, not a web page.", "quote": "System notification · Software Update"},
+      {"text": "No phone number, no payment, no alarm.", "quote": "takes about 20 minutes to install"},
+      {"text": "It lets you choose when.", "quote": "Install tonight"}
+    ],
+    "why": "This is the computer's own update tool. It doesn't ask for money, a call or remote access.",
+    "do": "Installing updates is good. If unsure, open Settings yourself and check for updates there."
+  },
+  {
+    "id": "renew-1", "type": "fake-renewal", "verdict": "scam", "channel": "email",
+    "context": "You don't remember buying any antivirus software.",
+    "from": "ShieldPro Billing <shieldpro.billing.dept@gmail.com>",
+    "subject": "Your ShieldPro Total Protection has been renewed - Invoice #SP-77215",
+    "body": "Dear Customer,\n\nThank you for renewing your ShieldPro Total Protection (3 devices, 2 years). Your payment of $399.99 has been processed and will appear on your statement within 24 hours.\n\nIf you did not authorize this renewal or wish to cancel and receive a full refund, please call our Billing Department within 24 hours at +1 (844) 555-0112.\n\nShieldPro Billing Team",
+    "flags": [
+      {"text": "A company billing you from a free email account.", "quote": "shieldpro.billing.dept@gmail.com"},
+      {"text": "A big charge you don't recognize, to make you panic.", "quote": "Your payment of $399.99 has been processed"},
+      {"text": "The phone number is the trap.", "quote": "please call our Billing Department within 24 hours"},
+      {"text": "“Dear Customer”: they don't know who you are.", "quote": "Dear Customer"}
+    ],
+    "why": "The charge usually never happened. Call that number and a “refund agent” will ask to get into your computer.",
+    "do": "Don't call. Check your bank or card statement yourself. Delete the email."
+  },
+  {
+    "id": "renew-2", "type": "fake-renewal", "verdict": "scam", "channel": "call",
+    "context": "You called the number on an invoice email to cancel a $399 renewal. The “refund agent” connected to your computer to process it.",
+    "from": "Call with “ShieldPro Refund Department”",
+    "body": "Agent: Oh no. I typed $39,900 instead of $399. Look, your bank account now shows the extra money. I could lose my job for this.\n\nAgent: Please, you need to send back the difference, $39,501. The bank can't reverse it, so the fastest way is gift cards or a Bitcoin ATM. I'll stay on the phone and guide you.",
+    "flags": [
+      {"text": "An “accidental” refund that's far too big.", "quote": "I typed $39,900 instead of $399"},
+      {"text": "Guilt, to rush you.", "quote": "I could lose my job for this."},
+      {"text": "Send money back by gift cards or Bitcoin ATM: only scammers ask for that.", "quote": "the fastest way is gift cards or a Bitcoin ATM"}
+    ],
+    "why": "There was no extra money. With access to your computer, they moved your own savings between your accounts, or edited the page, to fake a refund.",
+    "do": "Hang up, disconnect the computer from the internet, and call your bank on the number on your card."
+  },
+  {
+    "id": "renew-legit", "type": "fake-renewal", "verdict": "legit", "channel": "email",
+    "context": "You have a ReelBox streaming subscription that renews on the 1st of every month for $11.99.",
+    "from": "ReelBox <receipts@watchreelbox.com>",
+    "subject": "Your ReelBox receipt",
+    "body": "Hi Jordan,\n\nThanks for watching. Here's your receipt for this month.\n\nReelBox Standard plan: $11.99\nCharged to: Visa ending 2210\nNext billing date: the 1st of next month\n\nYou can view past receipts or change your plan anytime in Account settings in the ReelBox app or website. There's nothing you need to do.\n\nThe ReelBox team",
+    "flags": [
+      {"text": "It matches a subscription you have, at the price you expect.", "quote": "ReelBox Standard plan: $11.99"},
+      {"text": "No phone number to call and no deadline.", "quote": "There's nothing you need to do."},
+      {"text": "It sends you to your own account settings.", "quote": "in Account settings in the ReelBox app or website"}
+    ],
+    "why": "It matches what you actually pay, asks for nothing, and points you to your own account settings.",
+    "do": "Nothing to do. If a charge ever looks wrong, check it in the app or with your card company."
+  },
+  {
+    "id": "pay-1", "type": "payment-method", "verdict": "scam", "channel": "call",
+    "context": "A caller says they're working with your bank on a fraud case involving your account.",
+    "from": "+1 (469) 555-0193 · “Fraud Investigations”",
+    "body": "Caller: We're working with your bank to catch the employee who's been stealing from your account. We need your help to trap them.\n\nCaller: Go to the store and buy $2,000 in gift cards. If the cashier asks what they're for, say they're gifts for your grandchildren.\n\nCaller: Then scratch off the backs and read me the numbers so we can trace the transaction.",
+    "flags": [
+      {"text": "Buying gift cards to “help an investigation”.", "quote": "buy $2,000 in gift cards"},
+      {"text": "A cover story for the cashier, who might otherwise stop the scam.", "quote": "If the cashier asks what they're for"},
+      {"text": "Reading the numbers aloud hands them the money instantly.", "quote": "read me the numbers"}
+    ],
+    "why": "Anyone who tells you to buy gift cards and read out the numbers is a scammer, whatever the story.",
+    "do": "Hang up. If you already read out numbers, call the gift card company right away and report it at ReportFraud.ftc.gov."
+  },
+  {
+    "id": "pay-2", "type": "payment-method", "verdict": "scam", "channel": "sms",
+    "context": "Earlier today a “federal agent” called you about suspicious activity on your bank accounts. Now this text arrives.",
+    "from": "+1 (702) 555-0122",
+    "body": "Agent Wallace: As discussed, to secure your funds take $9,000 in cash to the Bitcoin ATM at the Quick Stop on 5th St. Scan the QR code below when the machine asks for a wallet. This is the government safe wallet. Do not tell store staff what the deposit is for.\n\n[QR code]",
+    "flags": [
+      {"text": "Cash into a Bitcoin ATM can't be reversed, and that's why scammers want it.", "quote": "take $9,000 in cash to the Bitcoin ATM"},
+      {"text": "There's no such thing as a “government safe wallet”.", "quote": "This is the government safe wallet."},
+      {"text": "Hiding it from store staff.", "quote": "Do not tell store staff what the deposit is for."}
+    ],
+    "why": "No government agency stores your money in a crypto wallet. This sends your cash straight to the scammer.",
+    "do": "Stop. Call your bank using the number on your card, and report it at ReportFraud.ftc.gov."
+  },
+  {
+    "id": "rom-1", "type": "romance", "verdict": "scam", "channel": "dm",
+    "context": "For six weeks you've been chatting every day with Daniel, who you met on a dating app. He's an engineer on an offshore oil rig. You've never met or video called.",
+    "from": "Daniel (moved the chat to WhatsApp)",
+    "body": "Good morning my love ☀️ I dreamed about our first dinner together again. Only 3 more weeks on this rig and I'm on a plane to you.\n\nI hate to even ask this. My equipment is stuck in customs and they won't release it without a $4,800 fee. My accounts are frozen until I'm back on land. Could you help me with it? I'll repay you the moment I land, I promise. You're the only person I trust.",
+    "flags": [
+      {"text": "Always far away, so you can never meet.", "quote": "Only 3 more weeks on this rig"},
+      {"text": "A sudden money problem with a specific amount.", "quote": "they won't release it without a $4,800 fee"},
+      {"text": "Flattery and trust, right before the ask.", "quote": "You're the only person I trust."}
+    ],
+    "why": "Never met in person, a job far away, and now a money emergency: the classic shape of a romance scam.",
+    "do": "Don't send money. Talk it over with a friend, and run his photos through a reverse image search."
+  },
+  {
+    "id": "rom-2", "type": "romance", "verdict": "scam", "channel": "dm",
+    "context": "Three weeks ago you matched with Sophie on a dating app. She says she's a finance analyst and you've been texting daily.",
+    "from": "Sophie (moved the chat off the dating app)",
+    "body": "My uncle works at a trading firm and taught me a short-term strategy on a crypto platform. I made 31% this month 😊 I don't usually share this, but I want us to build a future together.\n\nStart small, maybe $500, and I'll guide you step by step. The site is [[gx-primecoin.net]]. Just don't mention it to your bank, they always try to block crypto.",
+    "flags": [
+      {"text": "An online love interest with an investing tip.", "quote": "taught me a short-term strategy on a crypto platform"},
+      {"text": "Returns that are too good to be true.", "quote": "I made 31% this month"},
+      {"text": "A platform you've never heard of.", "quote": "gx-primecoin.net"},
+      {"text": "Keeping it from your bank, which could warn you.", "quote": "Just don't mention it to your bank"}
+    ],
+    "why": "Someone you met online who offers to teach you crypto trading is running one of the costliest scams there is. The platform and its profits are fake.",
+    "do": "Stop chatting. Never send money or crypto to someone you haven't met in person."
+  },
+  {
+    "id": "wrong-1", "type": "wrong-number", "verdict": "scam", "channel": "sms",
+    "context": "A text arrives from a number you don't know.",
+    "from": "+1 (415) 555-0108",
+    "body": "Hi, is this Dr. Kim's office? I need to reschedule my cleaning.\n\nYou: Sorry, wrong number!\n\nOh I'm so sorry! Thank you for being kind, most people just ignore. I'm Lily, I live in Seattle, I work in fashion and do some crypto investing with my uncle's help. Where are you from? Maybe it's fate we met 😊",
+    "flags": [
+      {"text": "A stranger who keeps chatting after a wrong number.", "quote": "Thank you for being kind"},
+      {"text": "Wealth and crypto come up right away.", "quote": "do some crypto investing with my uncle's help"},
+      {"text": "Turning it into a connection.", "quote": "Maybe it's fate we met"}
+    ],
+    "why": "This is how many crypto investment scams start: a wrong number becomes a friendship, then an investment tip.",
+    "do": "Don't reply. Block and delete."
+  },
+  {
+    "id": "wrong-2", "type": "wrong-number", "verdict": "scam", "channel": "dm",
+    "context": "For two months you've traded crypto on a platform a text-message friend recommended. Your balance shows $46,000. You ask to withdraw.",
+    "from": "GXT Exchange Support (in-app chat)",
+    "body": "Dear valued client, your withdrawal request of $46,210.55 has been received. Before funds can be released, regulations require payment of a 20% capital gains tax ($9,242.11) and a one-time anti-money-laundering verification fee of $1,500.\n\nPlease deposit the total to your account wallet within 72 hours. If not received, your account will be frozen for compliance review.",
+    "flags": [
+      {"text": "Paying money to get your money out.", "quote": "Before funds can be released"},
+      {"text": "Taxes are never paid to the trading platform.", "quote": "a 20% capital gains tax"},
+      {"text": "A threat if you don't pay.", "quote": "your account will be frozen"}
+    ],
+    "why": "Real exchanges don't make you deposit more to withdraw your own money. The balance was never real.",
+    "do": "Don't pay. Report it at ReportFraud.ftc.gov and to the FBI at ic3.gov."
+  },
+  {
+    "id": "job-1", "type": "job-task", "verdict": "scam", "channel": "sms",
+    "context": "You've been looking for remote work and have a profile on a jobs site.",
+    "from": "+1 (848) 555-0171",
+    "body": "Hi! I'm Sarah, a recruiter at Talentpath Staffing. Your profile matches a flexible remote position: help merchants boost app ratings online. 60–90 min/day, $300–$800 daily, paid every day. No experience needed. Interested? Reply YES and I'll add you on WhatsApp 📲",
+    "flags": [
+      {"text": "A job offer you didn't apply for, by text.", "quote": "Your profile matches a flexible remote position"},
+      {"text": "Huge pay for a vague, easy task.", "quote": "$300–$800 daily"},
+      {"text": "“Boosting ratings” is a task scam script.", "quote": "help merchants boost app ratings"},
+      {"text": "Moving you to a private chat app.", "quote": "I'll add you on WhatsApp"}
+    ],
+    "why": "Recruiters don't text strangers offering hundreds a day for rating apps. This leads to a “task” platform that later asks you to deposit money.",
+    "do": "Don't reply. Find jobs through companies' own careers pages."
+  },
+  {
+    "id": "job-2", "type": "job-task", "verdict": "scam", "channel": "dm",
+    "context": "Last week you started a remote “task” job. The app shows you've earned $612 in commissions.",
+    "from": "Task coordinator (Telegram)",
+    "body": "Congratulations! You've unlocked a Premium Combo Task 🎉 Premium tasks pay 5x commission. Your account balance is now -$1,180, so please recharge $1,180 in USDT to continue. Once the combo is complete, your full balance plus commission will be available to withdraw.",
+    "flags": [
+      {"text": "A “bonus” that makes your balance negative.", "quote": "Your account balance is now -$1,180"},
+      {"text": "Paying in crypto to keep working.", "quote": "recharge $1,180 in USDT"},
+      {"text": "Your earnings are always one more payment away.", "quote": "will be available to withdraw"}
+    ],
+    "why": "A job that makes you deposit money to keep working or to withdraw is a task scam. The earnings exist only on their screen.",
+    "do": "Stop paying. Report it at ReportFraud.ftc.gov."
+  },
+  {
+    "id": "job-legit", "type": "job-task", "verdict": "legit", "channel": "email",
+    "context": "Two weeks ago you applied for an office manager job on Northgate Health's careers page.",
+    "from": "Northgate Health Talent Team <careers@northgatehealth.org>",
+    "subject": "Interview request: Office Manager (Req #4471)",
+    "body": "Hi Sam,\n\nThank you for applying for the Office Manager position at our Riverside clinic. We'd like to invite you to a 30-minute video interview with the hiring manager, Alicia Gomez.\n\nPlease choose a time through the candidate portal on our careers site, where you submitted your application. If none of the times work, just reply to this email.\n\nBest regards,\nNorthgate Health Talent Acquisition",
+    "flags": [
+      {"text": "It follows up on a job you actually applied for.", "quote": "Thank you for applying for the Office Manager position"},
+      {"text": "A normal interview with a named manager, on video.", "quote": "a 30-minute video interview with the hiring manager"},
+      {"text": "Scheduling happens on the site you used to apply. No fees, no chat apps.", "quote": "through the candidate portal on our careers site"}
+    ],
+    "why": "It follows up on an application you made, through the same site, and asks for nothing but a time.",
+    "do": "Go to the portal the way you did when you applied, rather than through an email link."
+  },
+  {
+    "id": "over-1", "type": "overpayment", "verdict": "scam", "channel": "dm",
+    "context": "You listed a dining table for $350 on an online marketplace.",
+    "from": "Buyer “Kevin R.” (marketplace chat)",
+    "body": "Hi, is the table still available? I'll take it at your asking price, no need to haggle. I'm working offshore so my mover will pick it up.\n\nI'll send a cashier's check for $1,850. Once it clears, please send the extra $1,500 to the mover by Zelle so he can include your table with my other furniture. Thanks so much, God bless.",
+    "flags": [
+      {"text": "Buying without seeing it or asking a single question.", "quote": "no need to haggle"},
+      {"text": "A payment for much more than your price.", "quote": "a cashier's check for $1,850"},
+      {"text": "Forwarding the extra to a third person.", "quote": "send the extra $1,500 to the mover by Zelle"}
+    ],
+    "why": "A buyer who overpays and asks you to forward the difference is running a fake check scam. The check bounces later and you owe the bank.",
+    "do": "Decline. Sell only for the listed price through the marketplace's own checkout."
+  },
+  {
+    "id": "over-2", "type": "overpayment", "verdict": "scam", "channel": "email",
+    "context": "Last week you signed up for a mystery shopper panel you found online.",
+    "from": "Consumer Insights Group <assignments@ciq-shopperpanel.com>",
+    "subject": "Your first mystery shopper assignment ($400 pay)",
+    "body": "Congratulations on joining our evaluation team! A check for $2,450 is on its way to you by overnight mail.\n\nYour assignment: deposit the check, keep $400 as your pay, and use the remaining $2,050 to buy gift cards at two different stores. Rate the customer service, then send us photos of the card numbers so we can complete the report.",
+    "flags": [
+      {"text": "They send you money before you've done anything.", "quote": "A check for $2,450 is on its way"},
+      {"text": "The “assignment” is buying gift cards.", "quote": "use the remaining $2,050 to buy gift cards"},
+      {"text": "Photos of the card numbers give them the money.", "quote": "send us photos of the card numbers"}
+    ],
+    "why": "The check is fake. When it bounces, you owe the bank the full $2,450, and the gift cards are long gone.",
+    "do": "Don't deposit it. Real mystery shopping jobs don't work this way."
+  },
+  {
+    "id": "over-legit", "type": "overpayment", "verdict": "legit", "channel": "dm",
+    "context": "You listed a bike for $220 on an online marketplace that has its own checkout.",
+    "from": "Buyer “Tanya” (marketplace chat)",
+    "body": "Hi! I just bought your bike through checkout, so the payment's already in the app. Can I pick it up Saturday morning? Happy to meet somewhere public, maybe the coffee shop on Main Street?",
+    "flags": [
+      {"text": "Paid through the marketplace's own checkout, at your price.", "quote": "I just bought your bike through checkout"},
+      {"text": "No overpayment, no third party, no outside app.", "quote": "the payment's already in the app"},
+      {"text": "Suggests meeting in a public place.", "quote": "Happy to meet somewhere public"}
+    ],
+    "why": "The payment went through the marketplace's own checkout for the listed price, and the buyer suggests a public place.",
+    "do": "Check the payment shows in the app itself before you hand the bike over."
+  },
+  {
+    "id": "app-1", "type": "payment-app", "verdict": "scam", "channel": "sms",
+    "context": "Your payment app shows $250 from Jessica Hart, someone you don't know. A minute later, this text.",
+    "from": "+1 (346) 555-0146",
+    "body": "Hi!! So sorry, I sent you $250 by mistake, it was supposed to go to my landlord 😩 Could you please send it back? It's my rent money and I really need it today. Thank you so much!!",
+    "flags": [
+      {"text": "A stranger's “mistake” payment.", "quote": "I sent you $250 by mistake"},
+      {"text": "Asking you to send it back yourself.", "quote": "Could you please send it back?"},
+      {"text": "An emotional reason to hurry.", "quote": "It's my rent money and I really need it today"}
+    ],
+    "why": "The $250 was likely sent with a stolen card and will be clawed back, so the money you “return” comes out of your own pocket.",
+    "do": "Don't send it back yourself. Ask them to contact the app's support, and report it in the app."
+  },
+  {
+    "id": "app-2", "type": "payment-app", "verdict": "scam", "channel": "email",
+    "context": "You're selling concert tickets online. The buyer says they've paid you.",
+    "from": "PayFlow Support <service@payflow-transfers.net>",
+    "subject": "Payment pending: action required to release $480.00",
+    "body": "You have received a payment of $480.00 from Brandon M.\n\nStatus: PENDING\n\nThis payment exceeds the limit for a first-time seller. To release the funds, the buyer has paid an additional $150 upgrade fee, which you must reimburse to the buyer before the money is added to your balance.\n\n{{Release payment}}",
+    "flags": [
+      {"text": "Paying money in order to receive money.", "quote": "which you must reimburse to the buyer"},
+      {"text": "An email about a payment that isn't in your app.", "quote": "Status: PENDING"},
+      {"text": "The sender's domain isn't the payment app's.", "quote": "payflow-transfers.net"}
+    ],
+    "why": "Payment apps don't hold money until you pay a fee or reimburse a buyer. Open the app and you'll see no payment.",
+    "do": "Check your balance in the app itself. Don't send the buyer anything."
+  },
+  {
+    "id": "app-legit", "type": "payment-app", "verdict": "legit", "channel": "app",
+    "context": "Last night you had dinner with your friend Chris, who paid the whole bill.",
+    "from": "Payment app notification",
+    "body": "Chris Morales requested $38.50\n“Thai dinner 🍜 your half”",
+    "flags": [
+      {"text": "A friend you know, for something that just happened.", "quote": "Thai dinner"},
+      {"text": "It arrives inside the app, where you decide whether to pay.", "quote": "Chris Morales requested $38.50"}
+    ],
+    "why": "A request from a friend, for dinner you just shared, inside the app itself.",
+    "do": "Check it's the same Chris profile you've paid before, then pay in the app."
+  },
+  {
+    "id": "code-1", "type": "verification-code", "verdict": "scam", "channel": "sms",
+    "context": "You listed a stroller for sale online and included your phone number. A buyer texts you.",
+    "from": "+1 (281) 555-0125",
+    "body": "Hi, I'm interested in the stroller! Before I come see it I want to make sure you're a real person, there are so many scammers lol. I'm sending you a verification code from Google, can you tell me what it says?",
+    "flags": [
+      {"text": "Turning your caution against you: “I just want to know you're real.”", "quote": "make sure you're a real person"},
+      {"text": "Asking for a code sent to your phone.", "quote": "can you tell me what it says?"}
+    ],
+    "why": "That code lets them set up a phone number or account in your name. A real buyer never needs one.",
+    "do": "Never share a code someone else asked you to receive. Block the number."
+  },
+  {
+    "id": "code-2", "type": "verification-code", "verdict": "scam", "channel": "dm",
+    "context": "A message arrives from your friend Rosa's social media account.",
+    "from": "Rosa M. (social media message)",
+    "body": "Hey! Sorry to bug you 🙈 I'm trying to log back into my account on my new phone and it says it'll text a code to a friend for security. I put your number, can you send me the code you get? It's 6 digits",
+    "flags": [
+      {"text": "A friend's account asking for a code you're about to receive.", "quote": "can you send me the code you get?"},
+      {"text": "A believable reason. The code is really for your account.", "quote": "it'll text a code to a friend for security"}
+    ],
+    "why": "Rosa's account was probably hacked. The code would let the hacker take over your account next.",
+    "do": "Call or text Rosa on her real number to warn her. Never forward codes."
+  },
+  {
+    "id": "code-legit", "type": "verification-code", "verdict": "legit", "channel": "sms",
+    "context": "A moment ago you tapped “Sign in” in your bank's app on your new phone.",
+    "from": "Harborline Bank (saved contact)",
+    "body": "Harborline Bank: Your sign-in code is 482193. It expires in 10 minutes. Don't share this code with anyone. We will never call or text to ask for it.",
+    "flags": [
+      {"text": "You asked for it a moment ago.", "quote": "Your sign-in code is 482193"},
+      {"text": "It warns you not to share it.", "quote": "Don't share this code with anyone."},
+      {"text": "No link, no request.", "quote": "We will never call or text to ask for it."}
+    ],
+    "why": "You requested this code yourself, and it warns you not to share it.",
+    "do": "Type it into the app yourself. If anyone asks you for it, that's the scam."
+  },
+  {
+    "id": "phish-1", "type": "account-phishing", "verdict": "scam", "channel": "email",
+    "context": "You work at Brightwater Freight. Company email addresses end in @brightwaterfreight.com.",
+    "from": "IT Service Desk <helpdesk@brightwaterfreight-it.com>",
+    "subject": "Password expires today: keep your current password",
+    "body": "Hi Jamie,\n\nYour Brightwater Freight network password expires today at 5:00 PM. To avoid losing access to email and shared files, please confirm you'd like to keep your current password.\n\n{{Keep current password}}\n\nThis is an automated message from IT Service Desk. Please do not reply.",
+    "flags": [
+      {"text": "A look-alike domain: brightwaterfreight-it.com, not brightwaterfreight.com.", "quote": "brightwaterfreight-it.com"},
+      {"text": "“Keep your current password” isn't a real option. The button leads to a fake sign-in page.", "quote": "Keep current password"},
+      {"text": "A same-day deadline.", "quote": "expires today at 5:00 PM"}
+    ],
+    "why": "It's from a look-alike domain, and its button leads to a page that steals your password. It uses your name, which takes seconds for a scammer to find.",
+    "do": "Don't click. Report it to IT using your email's “Report phishing” button."
+  },
+  {
+    "id": "phish-2", "type": "account-phishing", "verdict": "scam", "channel": "sms",
+    "context": "You have a ReelBox streaming subscription. Its website is watchreelbox.com.",
+    "from": "+1 (657) 555-0138",
+    "body": "ReelBox: Your payment didn't go through and your membership is on hold. Update your payment details within 24h to keep watching: [[reelbox-billing-support.com/account]]",
+    "flags": [
+      {"text": "The link isn't watchreelbox.com, ReelBox's real site.", "quote": "reelbox-billing-support.com/account"},
+      {"text": "A deadline to make you hurry.", "quote": "within 24h"},
+      {"text": "It wants your payment details.", "quote": "Update your payment details"}
+    ],
+    "why": "If a payment really failed, the app would tell you when you open it. This link goes to a look-alike site.",
+    "do": "Open the ReelBox app yourself and check your account. Forward the text to 7726."
+  },
+  {
+    "id": "phish-3", "type": "account-phishing", "verdict": "scam", "channel": "email",
+    "context": "You're the treasurer of your neighborhood association. Linda Park is on the board.",
+    "from": "Linda Park via DocShare <no-reply@docshare-notify.top>",
+    "subject": "Linda Park shared “2027 Budget - Final” with you",
+    "body": "Linda Park has shared a document with you.\n\n“Hi! Here's the final budget we discussed at Tuesday's meeting. Can you review it before the board vote?”\n\n{{Open document}}\n\nYou'll need to sign in with your email account to view this document.",
+    "flags": [
+      {"text": "“Sign in with your email to view” is how the fake page steals your password.", "quote": "You'll need to sign in with your email account"},
+      {"text": "The sending domain isn't a sharing service you use.", "quote": "docshare-notify.top"},
+      {"text": "Personal details are easy for scammers to find or guess, and AI makes them sound natural.", "quote": "the final budget we discussed at Tuesday's meeting"}
+    ],
+    "why": "It's a fake share notice. Linda's account may be hacked, or her name was simply copied.",
+    "do": "Ask Linda by phone or a new message whether she sent it. Open shared files from inside your own account."
+  },
+  {
+    "id": "phish-legit", "type": "account-phishing", "verdict": "legit", "channel": "email",
+    "context": "Two minutes ago you signed in to your email on your new laptop.",
+    "from": "Postwell Mail <no-reply@accounts.postwellmail.com>",
+    "subject": "New sign-in on Mac",
+    "body": "Hi Alex,\n\nYour Postwell Mail account was just signed in to from a new device.\n\nMac · Chrome · Portland, OR · Just now\n\nIf this was you, you don't need to do anything. If not, open Postwell Mail, go to Settings › Security and change your password.",
+    "flags": [
+      {"text": "It matches what you just did.", "quote": "Mac · Chrome · Portland, OR · Just now"},
+      {"text": "It asks for nothing if it was you.", "quote": "If this was you, you don't need to do anything."},
+      {"text": "It sends you to your settings, not to a link.", "quote": "go to Settings › Security"}
+    ],
+    "why": "It matches the sign-in you just made and tells you to go to your own settings if something's wrong.",
+    "do": "Nothing to do. If you ever get one you don't recognize, change your password from the app itself."
+  },
+  {
+    "id": "qr-1", "type": "qr-code", "verdict": "scam", "channel": "sign",
+    "context": "You park downtown. The pay station has this sticker on it.",
+    "from": "Sticker on a parking pay station",
+    "body": "PAY BY PHONE: FASTER!\nScan to pay for parking. Avoid a $65 citation.\n\n[QR code]\n\nYour phone shows: [[citypark-pay.co/zone4]]",
+    "flags": [
+      {"text": "A sticker added to the meter, not printed on it.", "quote": "Sticker on a parking pay station"},
+      {"text": "The address your phone shows isn't the city's.", "quote": "citypark-pay.co/zone4"},
+      {"text": "A fine threat to hurry you.", "quote": "Avoid a $65 citation."}
+    ],
+    "why": "Scammers stick their own QR codes on meters. The address it opens isn't the city's.",
+    "do": "Pay at the machine or in the city's official parking app. Tell the city about the sticker."
+  },
+  {
+    "id": "qr-2", "type": "qr-code", "verdict": "scam", "channel": "letter",
+    "context": "A small package you didn't order arrives with your name on it. Inside is a cheap ring and this card.",
+    "from": "Card inside an unexpected package",
+    "body": "Congratulations! You've received a gift from an anonymous sender 🎁\n\nScan the code to find out who sent it and to claim your bonus gift card.\n\n[QR code]",
+    "flags": [
+      {"text": "A package you never ordered.", "quote": "a gift from an anonymous sender"},
+      {"text": "Curiosity bait: find out who sent it.", "quote": "Scan the code to find out who sent it"},
+      {"text": "A “bonus gift card” to make you hand over details.", "quote": "claim your bonus gift card"}
+    ],
+    "why": "The code leads to a page that asks for personal or card details, or installs harmful software.",
+    "do": "Don't scan it. You can keep unordered merchandise. Change your passwords if you think an account of yours was used."
+  },
+  {
+    "id": "qr-legit", "type": "qr-code", "verdict": "legit", "channel": "sign",
+    "context": "You're seated at a restaurant you chose. A printed card is on the table.",
+    "from": "Printed card on a restaurant table",
+    "body": "Welcome to Rosemary Kitchen!\nScan for our menu. Order and pay with your server.\n\n[QR code]\n\nYour phone shows: [[eatrosemarykitchen.com/menu]]",
+    "flags": [
+      {"text": "It only opens a menu.", "quote": "Scan for our menu."},
+      {"text": "The address matches the restaurant's name.", "quote": "eatrosemarykitchen.com/menu"},
+      {"text": "You still pay your server, not a web page.", "quote": "Order and pay with your server."}
+    ],
+    "why": "It only shows a menu, the address matches the restaurant, and payment happens with your server.",
+    "do": "Good habit anyway: read the address your phone shows before you open it."
+  },
+  {
+    "id": "prize-1", "type": "prize", "verdict": "scam", "channel": "call",
+    "context": "Your phone rings. You don't remember entering any contest.",
+    "from": "+1 (876) 555-0102",
+    "body": "Caller: Congratulations! This is the Prize Notification Department of the National Sweepstakes Bureau. You've won second place: $2.5 million and a brand-new luxury SUV!\n\nCaller: To release your winnings, you need to prepay the taxes and insurance, $3,950. Most winners use gift cards or a wire transfer to speed it up.\n\nCaller: Please keep this confidential until the press announcement. We've had problems with relatives trying to claim winnings.",
+    "flags": [
+      {"text": "A prize from a contest you never entered.", "quote": "You've won second place"},
+      {"text": "Paying to receive a prize.", "quote": "you need to prepay the taxes and insurance, $3,950"},
+      {"text": "Gift cards or a wire: unrecoverable payments.", "quote": "Most winners use gift cards or a wire transfer"},
+      {"text": "Secrecy, so no one talks you out of it.", "quote": "Please keep this confidential"}
+    ],
+    "why": "You never pay to receive a real prize.",
+    "do": "Hang up. Real sweepstakes don't ask winners for money."
+  },
+  {
+    "id": "prize-2", "type": "prize", "verdict": "scam", "channel": "dm",
+    "context": "You follow a popular creator on social media. This message comes from a similar-looking account.",
+    "from": "@CarterGiveaways_Official (social media message)",
+    "body": "🎉 You've been selected as one of our 10 winners in our $5,000 holiday cash giveaway! To claim, pay the $25 processing fee through the secure link below, then send a screenshot here. Claim within 2 hours or the prize goes to the next winner: [[carter-giveaway-claim.click]]",
+    "flags": [
+      {"text": "A copycat account. “_Official” in a name proves nothing.", "quote": "@CarterGiveaways_Official"},
+      {"text": "A fee to collect a prize.", "quote": "pay the $25 processing fee"},
+      {"text": "A two-hour deadline.", "quote": "Claim within 2 hours"}
+    ],
+    "why": "Giveaways don't charge winners fees. Scammers make copycat accounts of famous people and brands.",
+    "do": "Don't pay. Report and block the account."
+  },
+  {
+    "id": "util-1", "type": "utility", "verdict": "scam", "channel": "call",
+    "context": "It's a busy Friday afternoon at the bakery you own.",
+    "from": "+1 (412) 555-0165 · “Riverside Power & Light”",
+    "body": "Caller: This is the disconnection department at Riverside Power & Light. Your account is two months past due, and a technician is on the way to shut off service in the next 45 minutes.\n\nCaller: To stop the disconnection, you'll need to pay $1,374.20 right now. We can take it through a payment app or a prepaid card. Do you want me to stay on the line while you get one?",
+    "flags": [
+      {"text": "A shutoff in 45 minutes, with no written notice before it.", "quote": "shut off service in the next 45 minutes"},
+      {"text": "Payment by payment app or prepaid card.", "quote": "through a payment app or a prepaid card"},
+      {"text": "Keeping you on the line.", "quote": "Do you want me to stay on the line"}
+    ],
+    "why": "Utilities send written notices before disconnecting, and don't take payment by prepaid card on a surprise call.",
+    "do": "Hang up and call the number on your actual bill."
+  },
+  {
+    "id": "util-legit", "type": "utility", "verdict": "legit", "channel": "email",
+    "context": "You pay your water bill through your city's online account every month, with autopay on.",
+    "from": "Maple Falls Utilities <billing@maplefalls-utilities.org>",
+    "subject": "Your water bill is ready",
+    "body": "Hello Pat,\n\nYour water and sewer bill for this period is ready to view in your online account.\n\nAmount: $64.18\nAutopay: scheduled for the 15th from your account on file\n\nNo action is needed. Questions? Call Customer Service at the number on your printed bill.",
+    "flags": [
+      {"text": "A routine bill for an account you have, at a normal amount.", "quote": "Amount: $64.18"},
+      {"text": "Autopay is already set up, so there's nothing to pay here.", "quote": "No action is needed."},
+      {"text": "It points you to the number on your printed bill.", "quote": "the number on your printed bill"}
+    ],
+    "why": "It's a routine notice, with no threat and no new way to pay, and it points you to the number on your printed bill.",
+    "do": "Nothing to do. To view it, sign in to your account the way you usually do."
+  },
+  {
+    "id": "store-1", "type": "fake-store", "verdict": "scam", "channel": "ad",
+    "context": "This ad appears in your social media feed in late November.",
+    "from": "Sponsored · Nordhaus Outlet",
+    "body": "🎄 WAREHOUSE CLEARANCE: Everything 85% off! 🎄\nDesigner winter boots, now $29.99 (were $249). Only 7 pairs left in your size!\n\nSale ends in 02:14:37\n\n{{Shop now}}\n\n[[nordhaus-outlet-sale.shop]]",
+    "flags": [
+      {"text": "A price far below anywhere else.", "quote": "now $29.99 (were $249)"},
+      {"text": "Scarcity pressure.", "quote": "Only 7 pairs left in your size!"},
+      {"text": "A countdown timer.", "quote": "Sale ends in 02:14:37"},
+      {"text": "A store you've never heard of, on a brand-new kind of address.", "quote": "nordhaus-outlet-sale.shop"}
+    ],
+    "why": "Huge discounts, countdowns and “only 7 left” are the hallmarks of fake stores advertised on social media.",
+    "do": "Search the store's name with “scam” or “reviews” first, and pay by credit card if you buy."
+  },
+  {
+    "id": "store-2", "type": "fake-store", "verdict": "scam", "channel": "email",
+    "context": "You found a breeder website with a beagle puppy for $450 and sent a $200 deposit. Now this email arrives.",
+    "from": "Sunny Meadows Kennels <sunnymeadows.puppies@gmail.com>",
+    "subject": "Bella's travel arrangements 🐶",
+    "body": "Great news! Bella is vaccinated and ready to fly to you this week.\n\nBefore she can board, the airline requires a refundable climate-controlled crate and pet insurance: $780. Please send it by Zelle or a retail gift card today so she isn't held at the airport overnight. You'll get the full amount back on delivery.",
+    "flags": [
+      {"text": "Surprise fees after the deposit.", "quote": "a refundable climate-controlled crate and pet insurance: $780"},
+      {"text": "Payment by Zelle or gift card.", "quote": "by Zelle or a retail gift card"},
+      {"text": "An emotional deadline.", "quote": "so she isn't held at the airport overnight"}
+    ],
+    "why": "Pet scams pile on surprise shipping, crate and insurance fees. A “refundable” fee paid by gift card never comes back.",
+    "do": "Stop paying. Meet a pet in person before you pay anything."
+  },
+  {
+    "id": "store-legit", "type": "fake-store", "verdict": "legit", "channel": "email",
+    "context": "You just ordered a sweater from Finch & Marlow, a store you've shopped at for years, typing its web address yourself.",
+    "from": "Finch & Marlow <orders@finchandmarlow.com>",
+    "subject": "We've got your order #FM-311902",
+    "body": "Thanks for your order, Dana!\n\nMerino crew sweater (Navy, M): $68.00\nShipping: Free\nTotal: $72.42 (incl. tax)\nPaid with: Visa ending 2210\n\nWe'll email you when it ships. You can view or change your order in your account.",
+    "flags": [
+      {"text": "It confirms exactly what you just bought.", "quote": "Merino crew sweater (Navy, M): $68.00"},
+      {"text": "It asks for nothing.", "quote": "We'll email you when it ships."}
+    ],
+    "why": "It confirms what you just bought, at the price you paid, from the store you chose, and asks for nothing.",
+    "do": "Nothing to do. Check the order in your account if you need to."
+  },
+  {
+    "id": "char-1", "type": "charity", "verdict": "scam", "channel": "sms",
+    "context": "A hurricane hit the Gulf Coast two days ago. It's all over the news.",
+    "from": "+1 (504) 555-0157",
+    "body": "Hurricane Relief Fund: Families on the coast have lost EVERYTHING. 100% of your gift goes directly to victims. Every hour counts. Donate now by Cash App to $GulfReliefNow or by crypto. Thank you for your kindness 🙏",
+    "flags": [
+      {"text": "A vague name you can't look up.", "quote": "Hurricane Relief Fund"},
+      {"text": "Pressure to give right now.", "quote": "Every hour counts."},
+      {"text": "A payment-app handle or crypto instead of a charity's website.", "quote": "by Cash App to $GulfReliefNow or by crypto"}
+    ],
+    "why": "Real charities take donations through their own websites. A “fund” that only takes a payment-app handle or crypto, right after a disaster, is a red flag.",
+    "do": "Give to a charity you've researched, on its own website."
+  },
+  {
+    "id": "char-2", "type": "charity", "verdict": "scam", "channel": "call",
+    "context": "Your phone rings one evening.",
+    "from": "+1 (240) 555-0129",
+    "body": "Caller: Hi! I'm calling from the Police and Firefighters Families Fund to thank you for your generous pledge of $150 last year. We're so grateful.\n\nCaller: I can process this year's pledge right now with your card over the phone, or we can send a courier to pick up a check today.",
+    "flags": [
+      {"text": "Thanks for a pledge you never made.", "quote": "thank you for your generous pledge of $150 last year"},
+      {"text": "A courier to collect today.", "quote": "send a courier to pick up a check today"},
+      {"text": "A sound-alike name that borrows trust.", "quote": "Police and Firefighters Families Fund"}
+    ],
+    "why": "Thanking you for a pledge you don't remember is a trick to make you pay, and real charities don't send couriers for checks.",
+    "do": "Say no. If you want to give, research the charity and donate on its own website."
+  },
+  {
+    "id": "char-legit", "type": "charity", "verdict": "legit", "channel": "letter",
+    "context": "You've given to the Riverbend Food Bank every December for years.",
+    "from": "Riverbend Food Bank (letter in the mail)",
+    "body": "Dear Morgan,\n\nThank you for standing with your neighbors last year. Your gift helped us serve 41,000 meals.\n\nIf you'd like to give again this season, you can use the enclosed envelope or donate on our website. Every gift is welcome, at any time.\n\nWith gratitude,\nThe Riverbend Food Bank team",
+    "flags": [
+      {"text": "From a charity you already support.", "quote": "Thank you for standing with your neighbors last year"},
+      {"text": "No deadline and no pressure.", "quote": "Every gift is welcome, at any time."},
+      {"text": "Its usual ways to give: an envelope or its website.", "quote": "use the enclosed envelope or donate on our website"}
+    ],
+    "why": "It's from a charity you know, with no deadline, and asks you to give the usual way.",
+    "do": "Give if you like, by the envelope or the website you type yourself."
+  },
+  {
+    "id": "boss-1", "type": "boss-impostor", "verdict": "scam", "channel": "sms",
+    "context": "You work at a dental practice. Your boss is Dr. Ellen Price.",
+    "from": "+1 (512) 555-0130",
+    "body": "Hi, it's Dr. Price, this is my personal cell. I'm in back-to-back meetings and can't talk. Can you do me a favor? I need 5 x $200 gift cards for staff appreciation, I want to surprise them today. Please keep it between us. Send me pictures of the backs when you have them and I'll pay you back tonight.",
+    "flags": [
+      {"text": "A new number for someone you know.", "quote": "this is my personal cell"},
+      {"text": "Can't talk, so you can't check by voice.", "quote": "I'm in back-to-back meetings and can't talk"},
+      {"text": "Gift cards, and photos of the backs.", "quote": "Send me pictures of the backs"},
+      {"text": "Secrecy.", "quote": "Please keep it between us."}
+    ],
+    "why": "A boss texting from a new number who can't talk, wants gift cards and asks for secrecy is a scam.",
+    "do": "Call Dr. Price on the number you already have, or ask in person."
+  },
+  {
+    "id": "boss-2", "type": "boss-impostor", "verdict": "scam", "channel": "email",
+    "context": "You pay invoices for a small manufacturer. Kestrel Packaging has been your supplier for six years. Their email addresses end in @kestrel-packaging.com.",
+    "from": "Laura Bennett <laura.bennett@kestrel-packagng.com>",
+    "subject": "Updated remittance details - effective immediately",
+    "body": "Good morning,\n\nDue to our annual audit, our bank details have changed effective immediately. Kindly update your records and pay the attached invoice (#KP-90215, $18,460.00) to the new account below by end of day to avoid a late fee.\n\nNew account: ending in 1147 (full details in the attached form)\n\nBest regards,\nLaura Bennett\nAccounts Receivable, Kestrel Packaging",
+    "flags": [
+      {"text": "Look closely: “packagng” is missing an i.", "quote": "kestrel-packagng.com"},
+      {"text": "New bank details, effective immediately.", "quote": "our bank details have changed effective immediately"},
+      {"text": "A same-day deadline and a fee threat.", "quote": "by end of day to avoid a late fee"}
+    ],
+    "why": "The domain is a look-alike, and any change to a supplier's bank details must be confirmed by phone on a number you already have.",
+    "do": "Call Kestrel on the number in your records. Don't use contact details from this email."
+  },
+  {
+    "id": "boss-3", "type": "boss-impostor", "verdict": "scam", "channel": "video",
+    "context": "You work on the finance team of a mid-size company. Your CFO starts a video call with you and two colleagues.",
+    "from": "Video call · CFO and two colleagues, cameras on",
+    "body": "[The picture is a little stiff, and the CFO keeps his answers short.]\n\nCFO: We're closing a confidential acquisition today. I need you to wire $480,000 to the escrow account I've put in the chat. Legal has approved it.\n\nCFO: This can't go through the normal approval process, it's under NDA. Please confirm in the chat once it's sent.",
+    "flags": [
+      {"text": "AI can fake faces and voices on video. Stiff video and short answers are clues.", "quote": "The picture is a little stiff"},
+      {"text": "Skipping the normal approval process is the real tell.", "quote": "This can't go through the normal approval process"},
+      {"text": "A large, urgent, secret wire.", "quote": "wire $480,000 to the escrow account"}
+    ],
+    "why": "Deepfaked video calls have already tricked companies into wiring millions. A request to skip normal approvals is the reason to stop.",
+    "do": "End the call and confirm by calling the CFO on a known number. Follow your approval process."
+  },
+  {
+    "id": "boss-legit", "type": "boss-impostor", "verdict": "legit", "channel": "email",
+    "context": "At Monday's all-hands meeting, your company's IT lead announced that everyone will move to a new sign-in app this month. Company addresses end in @brightwaterfreight.com.",
+    "from": "IT Team <it@brightwaterfreight.com>",
+    "subject": "Reminder: set up the new sign-in app by Friday",
+    "body": "Hi all,\n\nAs mentioned at Monday's all-hands, we're moving to a new sign-in app for extra security. Instructions are on the IT page of the company intranet, and the help desk is on the 2nd floor all week.\n\nWe'll never ask for your password by email or phone, and this message has no links on purpose. If anything looks off, call the help desk at ext. 4400.\n\nThanks,\nIT Team",
+    "flags": [
+      {"text": "Your company's real domain.", "quote": "it@brightwaterfreight.com"},
+      {"text": "It matches an announcement you heard in person.", "quote": "As mentioned at Monday's all-hands"},
+      {"text": "No links, and it points you to places you already know.", "quote": "this message has no links on purpose"}
+    ],
+    "why": "It comes from your company's real domain, matches an in-person announcement, and has no links.",
+    "do": "Follow the instructions on the intranet you already use."
+  },
+  {
+    "id": "rent-1", "type": "rental", "verdict": "scam", "channel": "email",
+    "context": "You asked about a two-bedroom apartment listed at $1,150 a month. Similar places nearby rent for about $2,000.",
+    "from": "Thomas Whitfield <thomas.whitfield1956@outlook.com>",
+    "subject": "Re: 2BR apartment on Linden Ave",
+    "body": "Thank you for your interest. I am currently working abroad, so I cannot show you the apartment in person. However, I can mail you the keys once you send the first month's rent and deposit ($2,300) by wire transfer or Zelle.\n\nSeveral people are interested, so please let me know today if you want to secure it.",
+    "flags": [
+      {"text": "Rent far below similar places nearby.", "quote": ""},
+      {"text": "The owner can't show it.", "quote": "I cannot show you the apartment in person"},
+      {"text": "Money before you've seen the place, by wire or Zelle.", "quote": "send the first month's rent and deposit ($2,300) by wire transfer or Zelle"},
+      {"text": "Pressure: others are interested.", "quote": "Several people are interested"}
+    ],
+    "why": "An owner who can't show the place and wants money first is the classic rental scam. The listing was probably copied from a real one.",
+    "do": "Never pay before you, or someone you trust, has seen the place and the lease."
+  },
+  {
+    "id": "rent-2", "type": "rental", "verdict": "scam", "channel": "sms",
+    "context": "You're moving for a new job and found a house for rent online.",
+    "from": "+1 (480) 555-0186",
+    "body": "Hi, thanks for your interest in 214 Cedar Ln! We get a lot of applications, so to hold a viewing slot please send the $95 application fee and a $500 holding deposit by Cash App to $CedarHomes214. First approved applicant gets the keys!",
+    "flags": [
+      {"text": "A deposit before you can even see the house.", "quote": "to hold a viewing slot"},
+      {"text": "Payment to a personal payment-app handle.", "quote": "by Cash App to $CedarHomes214"},
+      {"text": "Urgency.", "quote": "First approved applicant gets the keys!"}
+    ],
+    "why": "Asking for a deposit by payment app before you can view the house is a red flag.",
+    "do": "Confirm who owns the property, through county property records or a listing site you trust, before paying anything."
+  },
+  {
+    "id": "health-1", "type": "health-insurance", "verdict": "scam", "channel": "call",
+    "context": "It's November, during Medicare open enrollment. Your phone rings.",
+    "from": "Unknown number · +1 (727) 555-0115",
+    "body": "Caller: Hi, I'm calling from Medicare benefits services. Everyone is getting new plastic Medicare cards with a chip this year, and yours is ready to ship.\n\nCaller: I just need to verify your Medicare number and your date of birth to activate it. There's also a one-time $49 card fee, which I can take today with a debit card.",
+    "flags": [
+      {"text": "An unexpected call about your Medicare card.", "quote": "Everyone is getting new plastic Medicare cards"},
+      {"text": "Asking for your Medicare number.", "quote": "verify your Medicare number and your date of birth"},
+      {"text": "A fee for a Medicare card, which is free.", "quote": "a one-time $49 card fee"}
+    ],
+    "why": "Medicare doesn't call to sell or activate cards, and Medicare cards are free. Your Medicare number can be used to bill for things you never got.",
+    "do": "Hang up. Call the number on the back of your Medicare card if you have questions."
+  },
+  {
+    "id": "health-2", "type": "health-insurance", "verdict": "scam", "channel": "ad",
+    "context": "This ad shows up during health insurance Open Enrollment.",
+    "from": "Sponsored · Affordable Health Plan Center",
+    "body": "Full health coverage for $29/month! 🩺 Government-approved, no deductibles, all doctors accepted. Enrollment closes TONIGHT.\n\nCall now: +1 (888) 555-0174\nSpeak to a licensed government benefits agent.",
+    "flags": [
+      {"text": "Too cheap to be full coverage.", "quote": "Full health coverage for $29/month!"},
+      {"text": "“Government-approved” and “government agent” are there to borrow trust.", "quote": "Speak to a licensed government benefits agent."},
+      {"text": "A deadline of tonight.", "quote": "Enrollment closes TONIGHT."}
+    ],
+    "why": "Real plans at that price don't cover everything with no deductible. Some of these are discount plans that aren't insurance at all.",
+    "do": "Compare plans on the official marketplace website, typed yourself."
+  },
+  {
+    "id": "health-legit", "type": "health-insurance", "verdict": "legit", "channel": "letter",
+    "context": "You have a Medicare health plan. In late September, a booklet arrives by mail from your plan.",
+    "from": "Your Medicare plan (mailed booklet)",
+    "body": "Annual Notice of Change\n\nThis notice tells you about changes to your plan's costs and coverage for next year. Please review it, and compare plans during Open Enrollment if your needs have changed.\n\nIf you have questions, call Member Services at the number on the back of your member ID card.",
+    "flags": [
+      {"text": "It arrives by mail from a plan you have.", "quote": "Annual Notice of Change"},
+      {"text": "It asks you to review, not to pay or share your number.", "quote": "Please review it"},
+      {"text": "It sends you to the number on your own card.", "quote": "the number on the back of your member ID card"}
+    ],
+    "why": "Plans mail this notice every fall. It asks for nothing and points you to the number on your own card.",
+    "do": "Read it, and compare plans during Open Enrollment if you like."
+  },
+  {
+    "id": "recover-1", "type": "refund-recovery", "verdict": "scam", "channel": "email",
+    "context": "Last year you lost $3,000 in an online investment scam.",
+    "from": "Asset Recovery Division <claims@intl-fundrecovery.org>",
+    "subject": "Your case #AR-40918: funds located",
+    "body": "Dear Claimant,\n\nOur investigators, working with international authorities, have located $3,000 linked to your name in a frozen offshore account.\n\nTo release your funds, an attorney processing fee of $450 must be paid in advance. Reply within 5 business days to avoid forfeiture of your claim.",
+    "flags": [
+      {"text": "They found you, not the other way around.", "quote": "have located $3,000 linked to your name"},
+      {"text": "A fee to get your own money back.", "quote": "an attorney processing fee of $450 must be paid in advance"},
+      {"text": "A deadline.", "quote": "Reply within 5 business days"}
+    ],
+    "why": "Recovery scammers target people who already lost money. Nobody legitimate charges you upfront to return it.",
+    "do": "Don't reply. Report it at ReportFraud.ftc.gov."
+  },
+  {
+    "id": "recover-2", "type": "refund-recovery", "verdict": "scam", "channel": "sms",
+    "context": "You sometimes shop at Finch & Marlow. Their website is finchandmarlow.com.",
+    "from": "+1 (909) 555-0140",
+    "body": "Finch & Marlow: Due to a pricing error on your recent order, you are eligible for a refund of $74.99. To receive your refund, confirm your card details here: [[finchmarlow-refunds.info/claim]]",
+    "flags": [
+      {"text": "A refund that needs your card details.", "quote": "confirm your card details here"},
+      {"text": "The link isn't finchandmarlow.com.", "quote": "finchmarlow-refunds.info/claim"}
+    ],
+    "why": "A refund never needs you to type your card details into a link from a text, and the link isn't the store's website.",
+    "do": "Check your orders in your account on the store's real site or app."
+  }
+]

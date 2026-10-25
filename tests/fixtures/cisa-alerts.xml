@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.cisa.gov/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Alerts</title>
+    <link>https://www.cisa.gov/</link>
+    <description></description>
+    <language>en</language>
+    
+    <item>
+  <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0</link>
+  <description>&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul type=&quot;disc&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;Hyperlink SCXW162250516 BCX8&quot; href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-110447&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;&lt;u&gt;CVE-2026-110447&lt;/u&gt;&lt;/a&gt; Collabora Online – Built-in CODE Server OS Command Injection Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s&amp;nbsp;&lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;
+</description>
+  <pubDate>Fri, 23 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25710</guid>
+    </item>
+<item>
+  <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+  <description>&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul type=&quot;disc&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-114625&quot; target=&quot;_blank&quot;&gt;CVE-2026-114625&lt;/a&gt; Arista VeloCloud Orchestrator SQL Injection Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s&amp;nbsp;&lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;
+</description>
+  <pubDate>Fri, 23 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25707</guid>
+    </item>
+<item>
+  <title>Critical Vulnerabilities in PHP Require Immediate Patching</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching</link>
+  <description>&lt;p&gt;&lt;strong&gt;Update October 23, 2026&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;CISA has updated this Alert to: (1) provide a SIGMA detection rule to help identify potentially suspicious activity; (2) incorporate partner resources; and (3) reinforce existing mitigation guidance.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Purpose&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-109618&quot;&gt;CVE-2026-109618&lt;/a&gt; and &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-109619&quot;&gt;CVE-2026-109619&lt;/a&gt;. These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP. The vulnerabilities affect all PHP installations serving web requests, including Apache with mod_php (&lt;strong&gt;Note&lt;/strong&gt;: PHP considers this highest risk), PHP-FPM, php-cgi, FrankenPHP and LiteSpeed. Organizations should immediately update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35 to fix these vulnerabilities. While CISA has not observed successful exploitation of these vulnerabilities in the wild as of the time of publication, they pose a risk to organizations if left unpatched.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Actions to Take&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;CISA urges organizations to take the following actions:&lt;/p&gt;
+&lt;ul type=&quot;square&quot;&gt;
+&lt;li&gt;Identify and inventory systems running any version of PHP across your organization.&amp;nbsp;&lt;br&gt;
+&lt;ul type=&quot;circle&quot;&gt;
+&lt;li&gt;PHP is often a component of other software and prevalence may not be directly observable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Apply the patch immediately, prioritizing internet-facing systems.&lt;/li&gt;
+&lt;li&gt;Organizations that cannot update immediately, or that continue to use PHP 8.1 or earlier unsupported versions, should take PHP-based systems offline until they can be patched or updated.&lt;/li&gt;
+&lt;li&gt;A web application firewall may provide some protection until systems are updated or patched.&lt;/li&gt;
+&lt;li&gt;Review the official PHP security advisory for guidance on patching.&lt;/li&gt;
+&lt;li&gt;Monitor for suspicious activity, including PHP worker processes launching shells or downloading tools.&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Resources&amp;nbsp;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;CISA urges network defenders to review the following advisories and resources and apply necessary updates: &amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;PHP’s Guidance&lt;/h3&gt;
+&lt;ul type=&quot;square&quot;&gt;
+&lt;li&gt;PHP’s Security Advisory: &lt;a href=&quot;https://www.php.net/archive/2026.php#2026-10-21-5&quot;&gt;Critical Remote Code Execution Vulnerabilities, Update Now&lt;/a&gt;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;PHP’s Blog: &lt;a href=&quot;https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/&quot;&gt;Today&#039;s PHP Security Release, and How We&#039;re Strengthening PHP Security&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Partner Guidance&lt;/h3&gt;
+&lt;ul type=&quot;square&quot;&gt;
+&lt;li&gt;United States National Security Agency’s (NSA) Advisory: &lt;a href=&quot;https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4630238/nsa-advisory-critical-patches-recommended-for-php-vulnerabilities/&quot;&gt;Critical Patches Recommended for PHP Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;United Kingdom National Cyber Security Centre’s (NCSC-UK) Alert: &lt;a href=&quot;https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php&quot;&gt;Critical security issue affecting PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Australian Signals Directorate’s Australian Cyber Security Centre’s (ASD’s ACSC) Alert: &lt;a href=&quot;https://www.cyber.gov.au/alert/critical-vulnerabilities-in-php&quot;&gt;Critical vulnerabilities in PHP&lt;/a&gt;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;National Cyber Security Centre’s (NCSC-NL) GitHub repository: &lt;a href=&quot;https://github.com/NCSC-NL/php2shell&quot;&gt;php2shell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Zealand National Cyber Security Centre’s (NCSC-NZ) &lt;a href=&quot;https://www.ncsc.govt.nz/news/ncsc-encourages-immediate-patching-against-php-vulnerability/&quot;&gt;NCSC encourages immediate patching against PHP vulnerability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Canadian Centre for Cyber Security’s (Cyber Centre) Alert: &lt;a href=&quot;https://www.cyber.gc.ca/en/alerts-advisories/al26-026-critical-vulnerabilities-impacting-php-cve-2026-109618-cve-2026-109619&quot;&gt;Critical vulnerabilities impacting PHP - CVE-2026-109618 and CVE-2026-109619&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Organizations may also review CISA’s SIGMA detection rule to help identify potentially suspicious activity in relevant log sources (&lt;strong&gt;Note&lt;/strong&gt;: CISA may update this resource as more information becomes available):&amp;nbsp;&lt;/p&gt;
+&lt;ul type=&quot;square&quot;&gt;
+&lt;li&gt;CISA’s &lt;a href=&quot;https://github.com/cisagov/SIGMA_Rules&quot;&gt;SIGMA Rules GitHub Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The information in this report is being provided “as is” for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA. &lt;/p&gt;
+</description>
+  <pubDate>Wed, 21 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25669</guid>
+    </item>
+<item>
+  <title>CISA Adds Six Known Exploited Vulnerabilities to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog</link>
+  <description>&lt;p&gt;CISA has added six new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-96652&quot; target=&quot;_blank&quot;&gt;CVE-2026-96652&lt;/a&gt; Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-96654&quot; target=&quot;_blank&quot;&gt;CVE-2026-96654&lt;/a&gt; Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-96655&quot; target=&quot;_blank&quot;&gt;CVE-2026-96655&lt;/a&gt; Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-96656&quot; target=&quot;_blank&quot;&gt;CVE-2026-96656&lt;/a&gt; Plex Media Server External Control of File Name or Path Vulnerability &amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-106931&quot; target=&quot;_blank&quot;&gt;CVE-2026-106931&lt;/a&gt; EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-110936&quot; target=&quot;_blank&quot;&gt;CVE-2026-110936&lt;/a&gt; Siemens Software Center Uncontrolled Search Path Element Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a class=&quot;ext&quot; href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;
+</description>
+  <pubDate>Tue, 20 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25663</guid>
+    </item>
+<item>
+  <title>CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support</link>
+  <description>&lt;p&gt;CISA is aware of critical authentication bypass vulnerability &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-102764&quot; target=&quot;_blank&quot;&gt;CVE-2026-102764&lt;/a&gt;, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat actors are actively exploiting the vulnerability to gain initial access, then establishing persistence, escalating privileges, and moving laterally. CISA added CVE-2026-102764 to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) catalog&lt;/a&gt; on Oct. 16, 2026.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;CISA urges organizations with affected self-hosted Remote Support appliances to immediately take the following actions:&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Apply the BT26-05-RS patch, as outlined in BeyondTrust’s &lt;a href=&quot;https://www.beyondtrust.com/trust-center/security-advisories/bt26-05&quot; target=&quot;_blank&quot;&gt;Security Advisory BT26-05&lt;/a&gt;. Organizations on a self-hosted Remote Support version older than 24.3.1 will need to upgrade to a newer version to apply the patch. Organizations using BeyondTrust-hosted (SaaS) Remote Support deployments have already been patched. Review BeyondTrust’s blog &lt;a href=&quot;https://www.beyondtrust.com/blog/entry/bt26-05&quot; target=&quot;_blank&quot;&gt;ARMORY CASTLE and BT26-05: What Security Teams Need to Know&lt;/a&gt; for detailed information on the vulnerability and recommended response and mitigation actions.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Limit external access to the Remote Support appliance to the services needed to support users and customers. Restrict access to administrative interfaces to trusted networks. Review BeyondTrust’s &lt;a href=&quot;https://docs.beyondtrust.com/rs/docs/on-prem-security&quot; target=&quot;_blank&quot;&gt;B Series Appliance on-premises security&lt;/a&gt; for additional guidance on securing network connectivity for self-hosted Remote Support appliances.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Organizations with affected self-hosted Remote Support appliances should conduct network and memory forensics to identify evidence of potential compromise. If your organization suspects a compromise, CISA recommends taking the following actions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Isolate any suspected or confirmed compromised appliances. Collect a snapshot of virtual appliances or forensic image for physical appliances to conduct future forensics, immediately forward appliance syslog and session events to the SIEM, and collect any additional logs, such as web application firewall, reverse-proxy, or perimeter firewall logs for the exposure window. Consult BeyondTrust’s &lt;a href=&quot;https://docs.beyondtrust.com/rs/docs/syslog&quot; target=&quot;_blank&quot;&gt;Syslog guide&lt;/a&gt; for additional information on forwarding appliance logs and session events.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Conduct network and forensic investigations for evidence of compromise. Additionally, hunt for indicators of threat actor activity, including unrecognized privileged or administrative sessions, unrecognized script files, unexpected gaps in logs or log forwarding, and unauthorized account, permission, or session-policy changes. Consult CISA’s &lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk&lt;/a&gt; to assist with prioritizing vulnerability remediation.&lt;/li&gt;
+&lt;li&gt;Rebuild from a known-good state and apply the BT26-05-RS patch. Then rotate every credential the appliance stored or injected, revoke all active support sessions, and review new multifactor authentication registrations on privileged accounts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;CISA urges organizations to review the BeyondTrust security advisory and resources noted above and apply necessary updates. CISA also recommends reviewing Mandiant’s blog, &lt;a href=&quot;https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust&quot; target=&quot;_blank&quot;&gt;ARMORY CASTLE Exploits BeyondTrust&lt;/a&gt;, for additional hunt and isolation guidance and detections.&amp;nbsp;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The information in this report is being provided “as is” for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.&amp;nbsp;&lt;/p&gt;
+</description>
+  <pubDate>Fri, 16 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25643</guid>
+    </item>
+<item>
+  <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+  <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2025-61624&quot; target=&quot;_blank&quot;&gt;CVE-2025-61624&lt;/a&gt; Fortinet Multiple Products Path Traversal Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-102764&quot; target=&quot;_blank&quot;&gt;CVE-2026-102764&lt;/a&gt; BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;
+</description>
+  <pubDate>Fri, 16 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25642</guid>
+    </item>
+<item>
+  <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+  <description>&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul type=&quot;disc&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-21589&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;CVE-2026-21589&lt;/u&gt;&lt;/a&gt; Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s&amp;nbsp;&lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;
+</description>
+  <pubDate>Thu, 15 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25637</guid>
+    </item>
+<item>
+  <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
+  <description>&lt;div class=&quot;OutlineElement Ltr SCXW266414493 BCX8&quot;&gt;
+&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;&lt;u&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/u&gt;&lt;/a&gt;, based on evidence of active exploitation.&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-0322&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;CVE-2026-0322&lt;/u&gt;&lt;/a&gt; Palo Alto Networks PAN-OS Code Injection Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-76519&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;CVE-2026-76519&lt;/u&gt;&lt;/a&gt; Cisco Secure Email Gateway Relative Path Traversal Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-105133&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;CVE-2026-105133&lt;/u&gt;&lt;/a&gt; Ahsay AhsayCBS Improper Authentication Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-105134&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;CVE-2026-105134&lt;/u&gt;&lt;/a&gt; Ahsay AhsayCBS Command Injection Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;OutlineElement Ltr SCXW266414493 BCX8&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;&lt;u&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/u&gt;&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;OutlineElement Ltr SCXW266414493 BCX8&quot;&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;&lt;u&gt;KEV Catalog vulnerabilities&lt;/u&gt;&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;specified criteria&lt;/u&gt;&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;OutlineElement Ltr SCXW266414493 BCX8&quot;&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;KEV Nomination Form&lt;/u&gt;&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+  <pubDate>Wed, 14 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25626</guid>
+    </item>
+<item>
+  <title>CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure</link>
+  <description>&lt;div class=&quot;SCXW209185679 BCX8&quot;&gt;
+&lt;div class=&quot;OutlineElement Ltr SCXW209185679 BCX8&quot;&gt;
+&lt;p&gt;CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-104935&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;CVE-2026-104935&lt;/u&gt;&lt;/a&gt;, affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior. CISA is aware of cyber threat actors exploiting this zero-day authentication bypass vulnerability, which allows remote, unauthenticated execution of arbitrary commands, to conduct credential theft and data exfiltration. CISA added CVE-2026-104935 to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/u&gt;&lt;/a&gt; on Oct. 13, 2026.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;CISA urges organizations with affected Ivanti Connect Secure appliances and deployments to immediately update to the latest version, as outlined in Ivanti’s &lt;a href=&quot;https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;Security Advisory Ivanti Connect Secure (CVE-2026-104935)&lt;/u&gt;&lt;/a&gt;. Organizations should also review the &lt;a href=&quot;https://hub.ivanti.com/s/article/Ivanti-Connect-Secure-25-x-Upgrade-and-Migration-Compatibility-Guide?language=en_US&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;Ivanti Connect Secure 25.x Upgrade and Migration Compatibility Guide&lt;/u&gt;&lt;/a&gt; for detailed patching guidance for hardware and virtual appliance deployments. Ivanti Connect Secure version 22.8 reaches end of life on Jan. 31, 2027.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Organizations seeking to determine whether they were compromised will need to conduct network and memory forensics to identify evidence of exploitation. &lt;strong&gt;Note:&lt;/strong&gt; Ivanti’s &lt;a href=&quot;https://hub.ivanti.com/s/article/KB44859?language=en_US&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;Integrity Checker Tool&lt;/u&gt;&lt;/a&gt; may not detect evidence of exploitation of CVE-2026-104935 because threat actor commands execute in memory.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;If your organization suspects a compromise, CISA recommends implementing the following actions from &lt;a href=&quot;https://hub.ivanti.com/s/article/Recovery-Steps?language=en_US&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;Ivanti Connect Secure Recovery Procedures&lt;/u&gt;&lt;/a&gt;:&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a backup of the appliance configuration. Review &lt;a href=&quot;https://hub.ivanti.com/s/article/KB44759?language=en_US&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;Ivanti’s How to Backup &amp;amp; Restore the Binary Configuration Using Archiving Server&lt;/u&gt;&lt;/a&gt; for more information.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Conduct a factory reset and upgrade the appliance to the latest version.&amp;nbsp;
+&lt;ol&gt;
+&lt;li&gt;For cloud and virtual systems, rebuild the virtual instance and upgrade to the latest version.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Restore the appliance configuration from the backup created in step 1.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Reset passwords for all accounts, including domain, administrator, and local accounts. Revoke and reissue stored certificates; reset stored API keys and license server credentials.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;CISA urges organizations to review the Ivanti security advisory and guide noted above and apply necessary updates. CISA also recommends reviewing the Volexity blog, &lt;a href=&quot;https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;A Series of Unauthenticated Events: Chained Exploitation of Ivanti Connect Secure Zero-Days&lt;/u&gt;&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Disclaimer&amp;nbsp;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The information in this report is being provided “as is” for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA. &amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+  <pubDate>Tue, 13 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25619</guid>
+    </item>
+<item>
+  <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+  <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-96951&quot;&gt;CVE-2026-96951&lt;/a&gt; Microsoft Windows Command Injection Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-104935&quot;&gt;CVE-2026-104935&lt;/a&gt; Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;
+</description>
+  <pubDate>Tue, 13 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25618</guid>
+    </item>
+<item>
+  <title>CISA Adds One Known Exploited Vulnerability to Catalog </title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+  <description>&lt;p class=&quot;text-align-justify&quot;&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul type=&quot;disc&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-88779&quot;&gt;CVE-2026-88779&lt;/a&gt; Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s&amp;nbsp;&lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;
+</description>
+  <pubDate>Sun, 04 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25583</guid>
+    </item>
+<item>
+  <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
+  <link>https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+  <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-102489&quot; target=&quot;_blank&quot;&gt;CVE-2026-102489&lt;/a&gt; Zammad GmbH Zammad Session Fixation Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-102490&quot; target=&quot;_blank&quot;&gt;CVE-2026-102490&lt;/a&gt; Zammad GmbH Zammad Improper Privilege Management Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk&quot;&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities&quot;&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href=&quot;https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w&quot; target=&quot;_blank&quot;&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;
+</description>
+  <pubDate>Fri, 02 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25582</guid>
+    </item>
+
+  </channel>
+</rss>

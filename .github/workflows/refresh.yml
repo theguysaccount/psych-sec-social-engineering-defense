@@ -1,0 +1,51 @@
+# Weekly: pull the FTC's consumer alerts and CISA's alerts and news, tag them with scam types,
+# commit the archive, and redeploy the site so the alerts page, the lessons and the week's
+# featured scams update. A feed that fails keeps its old entries; failing tests stop the commit
+# and the deploy, so the last good site stays live.
+name: Refresh scam alerts
+
+on:
+  schedule:
+    - cron: "17 13 * * 1"   # Mondays 13:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull FTC and CISA alerts
+        run: python3 pipeline/alerts.py fetch
+      - name: List scam alerts no lesson covers yet
+        run: |
+          python3 pipeline/alerts.py candidates > candidates.md
+          { echo "### FTC scam alerts no lesson covers yet"; echo; cat candidates.md; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Tests
+        run: python3 -m unittest discover -s tests
+      - name: Commit the archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/alerts.json data/candidates.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Weekly alert refresh $(date -u +%F)"
+            git push
+          fi
+      - name: Rebuild and redeploy the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main

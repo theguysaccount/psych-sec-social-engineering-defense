@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.cisa.gov/">
+  <channel>
+    <title>CISA News</title>
+    <link>https://www.cisa.gov/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>CISA, FBI and Partners Warn Organizations of SafePay Ransomware Actors Targeting Multiple Critical Infrastructure Sectors</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical</link>
+  <description/>
+  <pubDate>Wed, 21 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25667</guid>
+    </item>
+<item>
+  <title>CISA, FBI, NSA and International Partners Warn of China-based Cybersecurity Company Enabling Threat Actors to Target Multiple Critical Infrastructure Sectors Worldwide</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-fbi-nsa-and-international-partners-warn-china-based-cybersecurity-company-enabling-threat</link>
+  <description/>
+  <pubDate>Thu, 08 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25611</guid>
+    </item>
+<item>
+  <title>CISA Launches Cybersecurity Awareness Month: Securing the Next 250</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-launches-cybersecurity-awareness-month-securing-next-250</link>
+  <description/>
+  <pubDate>Thu, 01 Oct 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25573</guid>
+    </item>
+<item>
+  <title>CISA Whitepaper Charts Path to Establishing and Maturing CVE Program Quality</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-whitepaper-charts-path-establishing-and-maturing-cve-program-quality</link>
+  <description/>
+  <pubDate>Wed, 23 Sep 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25539</guid>
+    </item>
+<item>
+  <title>CISA Hosts Cyber Storm X, Nationwide Cybersecurity Exercise to Strengthen Resilience</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-hosts-cyber-storm-x-nationwide-cybersecurity-exercise-strengthen-resilience</link>
+  <description/>
+  <pubDate>Fri, 18 Sep 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25516</guid>
+    </item>
+<item>
+  <title>New CISA Guidance Helps Critical Infrastructure Detect, Observe and Impede Malicious Cyber Activity</title>
+  <link>https://www.cisa.gov/news-events/news/new-cisa-guidance-helps-critical-infrastructure-detect-observe-and-impede-malicious-cyber-activity</link>
+  <description/>
+  <pubDate>Wed, 16 Sep 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25493</guid>
+    </item>
+<item>
+  <title>CISA and NIST Release Guidelines to Protect Federal Cloud Identity Systems from Token Theft, Forgery, and Misuse</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-and-nist-release-guidelines-protect-federal-cloud-identity-systems-token-theft-forgery-and</link>
+  <description/>
+  <pubDate>Tue, 15 Sep 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25488</guid>
+    </item>
+<item>
+  <title>CISA Releases Updated Insider Threat Guide With New Insights to Mitigate Physical and Cyber Threats</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-releases-updated-insider-threat-guide-new-insights-mitigate-physical-and-cyber-threats</link>
+  <description/>
+  <pubDate>Wed, 09 Sep 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25431</guid>
+    </item>
+<item>
+  <title>CISA, NSA and FBI Warn of China-Based AI Companies Targeting US AI Models with Industrial-Scale Knowledge Distillation Campaigns to Shortcut AI Development</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-nsa-and-fbi-warn-china-based-ai-companies-targeting-us-ai-models-industrial-scale-knowledge</link>
+  <description/>
+  <pubDate>Tue, 08 Sep 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25425</guid>
+    </item>
+<item>
+  <title>CISA Advisory Highlights Red Team Findings to Help Organizations Assess Risk, Identify Threats and Enable Effective Incident Response</title>
+  <link>https://www.cisa.gov/news-events/news/cisa-advisory-highlights-red-team-findings-help-organizations-assess-risk-identify-threats-and</link>
+  <description/>
+  <pubDate>Tue, 25 Aug 26 12:00:00 +0000</pubDate>
+    <dc:creator>CISA</dc:creator>
+    <guid isPermaLink="false">/node/25350</guid>
+    </item>
+
+  </channel>
+</rss>
