@@ -3,24 +3,24 @@
   "ftc": {
    "url": "https://consumer.ftc.gov/blog/gd-rss.xml",
    "last_ok": "2026-10-25",
-   "last_error": "2026-10-25: HTTPError: HTTP Error 403: Forbidden",
+   "last_error": "2026-10-26: HTTPError: HTTP Error 403: Forbidden",
    "items": 10
   },
   "cisa-alerts": {
    "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
    "last_ok": "2026-10-25",
-   "last_error": "2026-10-25: HTTPError: HTTP Error 403: Forbidden",
+   "last_error": "2026-10-26: HTTPError: HTTP Error 403: Forbidden",
    "items": 30
   },
   "cisa-news": {
    "url": "https://www.cisa.gov/news.xml",
    "last_ok": "2026-10-25",
-   "last_error": "2026-10-25: HTTPError: HTTP Error 403: Forbidden",
+   "last_error": "2026-10-26: HTTPError: HTTP Error 403: Forbidden",
    "items": 10
   },
   "fbi-psa": {
    "url": "https://www.ic3.gov/PSA/RSS",
-   "last_ok": "2026-10-25",
+   "last_ok": "2026-10-26",
    "last_error": null,
    "items": 5
   }
@@ -927,5 +927,5 @@
    "first_seen": "2026-10-25"
   }
  ],
- "checked": "2026-10-25"
+ "checked": "2026-10-26"
 }
