@@ -79,10 +79,10 @@ Off by default, so the site can say "no cookies, no data". The code already coun
 
 - Create a free GoatCounter site (needs an account), then set repo variable `GOATCOUNTER_URL` = `https://<code>.goatcounter.com/count`, and redeploy. The footer and About page switch their privacy text automatically.
 
-### 5. Search Console and the root robots.txt
+### 5. Search Console
 
 - Google: verify the site in Search Console (an HTML-file or DNS method needs Jack's Google account) and submit `/sitemap.xml`. Bing, Yandex and others already get every deploy through IndexNow.
-- Crawlers read robots.txt only at the host root (`theguysaccount.github.io/robots.txt`, which 404s, meaning "allow all"). A custom domain fixes this; so would a `theguysaccount.github.io` user-site repo with a robots.txt listing each project's sitemap. That repo is shared by every project on the account, so it's left to Jack.
+- Crawlers read robots.txt only at the host root. That's handled account-wide: the [theguysaccount.github.io](https://github.com/theguysaccount/theguysaccount.github.io) repo rebuilds `https://theguysaccount.github.io/robots.txt` daily, listing this site's sitemap with every other live project's. Nothing to do here; on a custom domain, this repo's own `robots.txt` (already built) takes over.
 
 ## Writing items
 
