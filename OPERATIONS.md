@@ -2,7 +2,7 @@
 
 Spot the Scam runs itself on GitHub: Pages for hosting, Actions for every recurring job. Nobody needs to do anything for it to keep working. This file lists each automated job and how it fails safe, what to watch, and the keys Jack can turn later.
 
-**Live:** https://theguysaccount.github.io/psych-sec-social-engineering-defense/
+**Live:** https://scams.systemicaltruism.org/ (since 2026-11-22; the first address, https://theguysaccount.github.io/psych-sec-social-engineering-defense/, redirects there)
 **Repo:** https://github.com/theguysaccount/psych-sec-social-engineering-defense
 
 ## Automated jobs
@@ -19,6 +19,7 @@ The weekly test itself needs no job: every visitor's browser picks the same ten 
 ## What to watch
 
 - **Open `ops-alert` issues.** One issue collects repeated failures.
+- **Retried fetches.** Since 2026-11-22 the self-test and the smoke test after each deploy load a page again after 10, 20 and 30 seconds when GitHub Pages answers with a 5xx, times out or drops the connection: at most six retries per run in `scripts/check_live.py` and four in `scripts/e2e.sh`, so a site that's really down still fails within minutes. Each retry leaves a warning on the run, and only a page that still fails counts. A 403 or 404 fails at once, so CISA's bot filter (which answers 403) is never asked twice.
 - **The alert-refresh run summary** lists FTC scam alerts that no lesson covers yet. These are what the content routine (below) works from.
 - **`data/alerts.json` → `sources.*.last_error`.** The FTC's bot filter (Akamai) answers GitHub's runners with `403`, tested 2026-10-25, so the weekly job can't read the FTC feed from Actions. It still tries every week and keeps every FTC alert it already has. CISA answers some runner addresses with `403` too, so each feed gets three tries. The FBI's IC3 feed works. The self-test fails only if **no** feed has worked for 10 days. The site doesn't route around the FTC's block (no browser disguises, no proxies). FTC alerts reach the site in two ways: whenever a weekly fetch gets through, and through the content routine (key 1), which reads the FTC site in a browser and adds new alerts to `data/alerts.json`.
 - **FTC source links** can't be checked by a script (FTC blocks automated requests). The links were verified in a browser on 2026-10-25. The content routine re-checks them.
@@ -64,6 +65,43 @@ Steps once Jack picks one (and approves any purchase):
 2. Repo → Settings → Pages → Custom domain → enter it, wait for the certificate, tick **Enforce HTTPS**.
 3. Repo → Settings → Secrets and variables → Actions → Variables → `SITE_URL` = `https://<domain>` (no trailing slash). Canonicals, sitemap, share links and IndexNow switch over on the next deploy (`gh workflow run pages.yml`).
 4. The old github.io URLs redirect to the custom domain automatically.
+
+**Switched on 2026-11-22.** The domain rollout session pointed `scams.systemicaltruism.org` at GitHub (`CNAME scams → theguysaccount.github.io` in Namecheap's DNS), made it the Pages custom domain (certificate approved, HTTPS enforced), set `SITE_URL` = `https://scams.systemicaltruism.org` and redeployed. The self-test passed against the new address at 08:11 UTC; a run three minutes earlier failed only because the CDN still held the old home page (see step 4 below).
+
+#### Exact commands to switch the base URL (added 2026-11-22)
+
+The steps above as commands, for the domain rollout session or anyone with `gh` signed in as theguysaccount: to redo the switch, move to another name, or undo it. Every address the build writes into the site (canonicals, sitemap, robots.txt, Open Graph tags, JSON-LD, IndexNow) comes from the one repo variable `SITE_URL`, and the deploy smoke test and the weekly self-test follow it too, so no file needs editing. DNS is the domain rollout session's job; nothing in this repo changes DNS. Don't add a `CNAME` file: this site deploys through Actions, which ignores one.
+
+```bash
+REPO=theguysaccount/psych-sec-social-engineering-defense
+DOMAIN=scams.systemicaltruism.org   # the chosen name: no https://, no trailing slash
+
+# 0. DNS must already point at GitHub. Ask a public resolver (a local cache can be stale):
+curl -s "https://dns.google/resolve?name=$DOMAIN&type=A"   # expect theguysaccount.github.io. and 185.199.108-111.153
+
+# 1. Make it the Pages custom domain. GitHub requests a certificate, and github.io starts redirecting to it.
+gh api -X PUT "repos/$REPO/pages" -f cname="$DOMAIN"
+
+# 2. Enforce HTTPS once the certificate exists (minutes, sometimes hours). This tries every 2 minutes for 2 hours.
+for i in $(seq 60); do gh api -X PUT "repos/$REPO/pages" -F https_enforced=true --silent 2>/dev/null && break; sleep 120; done
+gh api "repos/$REPO/pages" --jq '{cname, https_enforced, certificate: .https_certificate.state}'   # expect true, "approved"
+
+# 3. Switch the base URL and redeploy.
+gh variable set SITE_URL -R "$REPO" --body "https://$DOMAIN"
+gh workflow run pages.yml -R "$REPO"
+sleep 20; gh run watch -R "$REPO" --exit-status "$(gh run list -R "$REPO" --workflow pages.yml --limit 1 --json databaseId --jq '.[0].databaseId')"
+
+# 4. Pages' CDN keeps each page for up to 10 minutes (max-age=600), so wait before checking canonicals.
+#    Then, from a checkout of this repo. (A machine whose DNS cache doesn't know the new name yet fails
+#    these with "nodename nor servname provided"; the selftest.yml run on GitHub's runners still counts.)
+sleep 600
+scripts/e2e.sh "https://$DOMAIN/"
+python3 scripts/check_live.py "https://$DOMAIN"
+curl -sI "https://theguysaccount.github.io/${REPO#*/}/" | grep -i '^location'   # expect https://$DOMAIN/
+gh workflow run selftest.yml -R "$REPO"
+```
+
+Afterwards: `gh repo edit "$REPO" --homepage "https://$DOMAIN"`, put the new address in the **Live:** line at the top, and add the domain to Google Search Console (key 5). To undo: `gh variable delete SITE_URL -R "$REPO"`, `gh api -X PUT "repos/$REPO/pages" -F cname=null`, then `gh workflow run pages.yml -R "$REPO"`.
 
 ### 3. Money: the team version
 
