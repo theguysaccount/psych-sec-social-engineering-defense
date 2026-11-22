@@ -95,6 +95,9 @@ sleep 20; gh run watch -R "$REPO" --exit-status "$(gh run list -R "$REPO" --work
 #    Then, from a checkout of this repo. (A machine whose DNS cache doesn't know the new name yet fails
 #    these with "nodename nor servname provided"; the selftest.yml run on GitHub's runners still counts.)
 sleep 600
+# The home page should name the new address. If it still names the old one, run pages.yml once more
+# (on 2026-11-22 a stale / outlived the wait on SoulmateCheck, and the next deploy cleared it).
+curl -s --resolve "$DOMAIN:443:185.199.108.153" "https://$DOMAIN/" | grep -o '<link rel="canonical" href="[^"]*"'   # expect https://$DOMAIN/
 scripts/e2e.sh "https://$DOMAIN/"
 python3 scripts/check_live.py "https://$DOMAIN"
 curl -sI "https://theguysaccount.github.io/${REPO#*/}/" | grep -i '^location'   # expect https://$DOMAIN/
