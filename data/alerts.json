@@ -3,29 +3,249 @@
   "ftc": {
    "url": "https://consumer.ftc.gov/blog/gd-rss.xml",
    "last_ok": "2026-10-25",
-   "last_error": "2026-11-16: HTTPError: HTTP Error 403: Forbidden",
+   "last_error": "2026-11-24: HTTPError: HTTP Error 403: Forbidden",
    "items": 10
   },
   "cisa-alerts": {
    "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
-   "last_ok": "2026-10-25",
-   "last_error": "2026-11-16: HTTPError: HTTP Error 403: Forbidden",
+   "last_ok": "2026-11-24",
+   "last_error": null,
    "items": 30
   },
   "cisa-news": {
    "url": "https://www.cisa.gov/news.xml",
-   "last_ok": "2026-10-25",
-   "last_error": "2026-11-16: HTTPError: HTTP Error 403: Forbidden",
+   "last_ok": "2026-11-24",
+   "last_error": null,
    "items": 10
   },
   "fbi-psa": {
    "url": "https://www.ic3.gov/PSA/RSS",
-   "last_ok": "2026-11-16",
+   "last_ok": "2026-11-24",
    "last_error": null,
    "items": 5
   }
  },
  "alerts": [
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-11-23",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-11-20",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded Credentials…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-11-18",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+   "title": "Critical Java Vulnerability Requires Immediate Patching",
+   "date": "2026-11-17",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-11-17",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-11-13",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for Critical Resource…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-11-10",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracuda Networks Multiple Products OS Command Injection…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-announces-enhanced-reporting-form-cyber-incidents",
+   "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+   "date": "2026-11-09",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-11-09",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102895 GPUStack Improper Authentication Vulnerability CVE-2026-116779 SignalWire FreeSwitch Code Injection Vulnerability CVE-2026-123158 OpenBSD OpenSSH Unexpected Status…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-11-06",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-fbi-hhs-usda-and-dot-urge-critical-infrastructure-strengthen-industrial-refrigeration-and-cold",
+   "title": "CISA, FBI, HHS, USDA, and DOT Urge Critical Infrastructure To Strengthen Industrial Refrigeration and Cold Chain Monitoring Systems Cybersecurity",
+   "date": "2026-11-05",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-11-04",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "date": "2026-11-03",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-119977 WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-kicks-critical-infrastructure-security-and-resilience-month-2026",
+   "title": "CISA Kicks Off Critical Infrastructure Security and Resilience Month 2026",
+   "date": "2026-11-02",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-30",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-29",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-97229 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability CVE-2026-76418 Cisco Secure Firewall ASA Software and Cisco Secure FTD…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-28",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable Vulnerability These types of vulnerabilities…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-27",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked Return Value Vulnerability These…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/news/cisa-unveils-new-strategy-strengthen-national-cyber-defense-and-critical-infrastructure-security",
+   "title": "CISA Unveils New Strategy to Strengthen National Cyber Defense and Critical Infrastructure Security",
+   "date": "2026-10-26",
+   "source": "CISA",
+   "feed": "cisa-news",
+   "summary": "",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "date": "2026-10-26",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching : CVE-2026-109618 – PHP Memory Corruption Vulnerability CVE-2026-109619 – PHP Stale Internal Request-State Vulnerability These types of…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
+  },
   {
    "url": "https://www.ic3.gov/PSA/2026/PSA261023-2",
    "title": "Suspicious Letters Containing White Powder Mailed to State and Local Election Officials, Media Organizations, and Public and Private Polling Companies",
@@ -100,7 +320,7 @@
    "date": "2026-10-21",
    "source": "CISA",
    "feed": "cisa-alerts",
-   "summary": "Update October 23, 2026 : CISA has updated this Alert to: (1) provide a SIGMA detection rule to help identify potentially suspicious activity; (2) incorporate partner resources; and (3) reinforce existing mitigation guidance. Purpose CISA strongly urges organizations to immediately patch the recently disclosed…",
+   "summary": "Update October 26, 2026: CISA has updated this Alert to reflect the addition of CVE-2026-109618 and CVE-2026-109619 to its Known Exploited Vulnerabilities (KEV) Catalog on Oct. 26, 2026. Update October 23, 2026 : CISA has updated this Alert to: (1) provide a SIGMA detection rule to help identify potentially…",
    "types": [],
    "relevant": false,
    "first_seen": "2026-10-25"
@@ -214,6 +434,17 @@
    "types": [],
    "relevant": false,
    "first_seen": "2026-10-25"
+  },
+  {
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerabilities-ivanti-connect-secure",
+   "title": "CISA Urges Patching Newly Exploited Vulnerabilities in Ivanti Connect Secure",
+   "date": "2026-10-13",
+   "source": "CISA",
+   "feed": "cisa-alerts",
+   "summary": "Update October 30, 2026 : CISA has updated this Alert to: (1) include CVE-2026-111357 and CVE-2026-118527 and reflect their addition to the Known Exploited Vulnerabilities (KEV) Catalog on October 30, 2026; and (2) update the affected Ivanti Connect Secure versions. CISA is aware of Ivanti’s disclosure of newly…",
+   "types": [],
+   "relevant": false,
+   "first_seen": "2026-11-24"
   },
   {
    "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -927,5 +1158,5 @@
    "first_seen": "2026-10-25"
   }
  ],
- "checked": "2026-11-16"
+ "checked": "2026-11-24"
 }
